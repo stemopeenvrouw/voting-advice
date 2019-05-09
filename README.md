@@ -19,6 +19,7 @@ function receiveMessage(event) {
 </script>
 ```
 Note to use only a domain (without trailing `/`) on the `event.origin` line.
+
 Make sure your URL to embed from equals the `postMessage` URL in `App.svelte`, which now is `https://stemopeenvrouw.com/`.
 
 # Install
@@ -35,8 +36,11 @@ Note that list icons are loaded in `public/global.css` which will need a change 
 ## Keys
 
 Keys are inlined for the moment:
+
 `public/index.html`: Typekit key with Industry font
+
 `.google-sheets-id`: Google Sheet ID and Google API Key
+
 `.google-api-key`: Google API Key
 
 ## Development
