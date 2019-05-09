@@ -1,0 +1,15 @@
+services:
+  app:
+    command: sh -c "yarn && yarn dev"
+    ports: ['5000:5000', '35729:35729']
+    image: mhart/alpine-node:11
+    restart: always
+    volumes:
+      - '.:/app'
+      - 'node-modules:/app/node_modules/'
+      - 'yarn-cache:/usr/local/share/.cache/yarn/'
+    working_dir: /app
+version: '3.1'
+volumes:
+  node-modules: null
+  yarn-cache: null

@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+build
+.google-api-key
+.google-sheets-id
+api-response.json

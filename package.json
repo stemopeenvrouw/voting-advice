@@ -1,0 +1,40 @@
+{
+  "name": "stem-op-een-vrouw",
+  "author": "Benjamin W. Broersma <bw@broersma.com>",
+  "version": "0.1.0",
+  "license": "CC0-1.0",
+  "browserslist": [
+    "> 0.25%",
+    "not op_mini all",
+    "not dead",
+    "IE 10-11"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^7.0.15",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.6.0",
+    "postcss-svg": "^3.0.0",
+    "rollup": "^1.10.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-copy": "^2.0.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^4.0.4",
+    "sirv-cli": "^0.3.1",
+    "svelte": "^3.0.0"
+  },
+  "scripts": {
+    "autobuild": "rollup -c -w",
+    "build": "rollup -c",
+    "dev": "run-p start:dev autobuild",
+    "start": "sirv build",
+    "start:dev": "sirv build --dev"
+  }
+}

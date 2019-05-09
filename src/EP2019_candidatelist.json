@@ -1,0 +1,2629 @@
+{
+  "code": "EP2019",
+  "name": "Europees Parlement 2019",
+  "category": "EP",
+  "date": "2019-05-23",
+  "lists": [
+    {
+      "listid": 1,
+      "listname": "Democraten 66 (D66)",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "S.H.",
+          "firstname": "Sophie",
+          "lastnameprefix": "in 't",
+          "lastname": "Veld",
+          "gender": "",
+          "residence": ""
+        },
+        {
+          "candidateid": 2,
+          "initials": "R.M.",
+          "firstname": "Raoul",
+          "lastname": "Boucke",
+          "gender": "",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 3,
+          "initials": "S.",
+          "firstname": "Samira",
+          "lastname": "Rafaela",
+          "gender": "",
+          "residence": "Uitgeest"
+        },
+        {
+          "candidateid": 4,
+          "initials": "F.C.O.",
+          "firstname": "Felix",
+          "lastname": "Klos",
+          "gender": "",
+          "residence": "Hilversum"
+        },
+        {
+          "candidateid": 5,
+          "initials": "K.E.A.",
+          "firstname": "Emily",
+          "lastnameprefix": "van de",
+          "lastname": "Vijver",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 6,
+          "initials": "J.C.W.",
+          "firstname": "John",
+          "lastname": "Nederstigt",
+          "gender": "",
+          "residence": "Hoofddorp"
+        },
+        {
+          "candidateid": 7,
+          "initials": "S.",
+          "firstname": "Sjoerd",
+          "lastname": "Warmerdam",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "R.",
+          "firstname": "Raquel",
+          "lastname": "Garcia Hermida-van der Walle",
+          "gender": "",
+          "residence": "Gorredijk"
+        },
+        {
+          "candidateid": 9,
+          "initials": "S.J.",
+          "firstname": "Susanne",
+          "lastname": "Caarls",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 10,
+          "initials": "B.T.",
+          "firstname": "Bastiaan",
+          "lastname": "Winkel",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 11,
+          "initials": "J.M.",
+          "firstname": "Anita",
+          "lastname": "Pannebakker",
+          "gender": "",
+          "residence": ""
+        },
+        {
+          "candidateid": 12,
+          "initials": "V.H.A.",
+          "firstname": "Vic",
+          "lastnameprefix": "van",
+          "lastname": "Dijk",
+          "gender": "",
+          "residence": "Enschede"
+        },
+        {
+          "candidateid": 13,
+          "initials": "H.A.P.",
+          "firstname": "Rita",
+          "lastname": "Braam-van Valkengoed",
+          "gender": "",
+          "residence": "Culemborg"
+        },
+        {
+          "candidateid": 14,
+          "initials": "A.",
+          "firstname": "Andor",
+          "lastname": "Admiraal",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 15,
+          "initials": "E.F.C.N.",
+          "firstname": "Emma",
+          "lastname": "Laurijssens-van Engelenhoven",
+          "gender": "",
+          "residence": "Etten-Leur"
+        },
+        {
+          "candidateid": 16,
+          "initials": "E.",
+          "firstname": "Eva",
+          "lastnameprefix": "van",
+          "lastname": "Wijngaarden",
+          "gender": "",
+          "residence": "Tilburg"
+        },
+        {
+          "candidateid": 17,
+          "initials": "F.E.",
+          "firstname": "Franklin",
+          "lastname": "Boon",
+          "gender": "",
+          "residence": "Noorbeek"
+        },
+        {
+          "candidateid": 18,
+          "initials": "A.F.",
+          "firstname": "Andreas",
+          "lastname": "Zenthöfer",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 19,
+          "initials": "C.A.",
+          "firstname": "Conny",
+          "lastnameprefix": "van",
+          "lastname": "Stralen",
+          "gender": "",
+          "residence": "Overveen"
+        },
+        {
+          "candidateid": 20,
+          "initials": "S.A.W.",
+          "firstname": "Stef",
+          "lastname": "Stevens",
+          "gender": "",
+          "residence": "Helmond"
+        },
+        {
+          "candidateid": 21,
+          "initials": "A.S.",
+          "firstname": "Fons",
+          "lastnameprefix": "van der",
+          "lastname": "Ham",
+          "gender": "",
+          "residence": "Almere"
+        },
+        {
+          "candidateid": 22,
+          "initials": "J.L.A.",
+          "firstname": "Johanna",
+          "lastname": "Boogerd-Quaak",
+          "gender": "",
+          "residence": "Zaamslag"
+        },
+        {
+          "candidateid": 23,
+          "initials": "T.J.W.",
+          "firstname": "Thierry",
+          "lastnameprefix": "de",
+          "lastname": "Heer",
+          "gender": "",
+          "residence": "Hoogerheide"
+        },
+        {
+          "candidateid": 24,
+          "initials": "C.J.",
+          "firstname": "Caecilia",
+          "lastnameprefix": "van",
+          "lastname": "Peski",
+          "gender": "",
+          "residence": "Tilburg"
+        },
+        {
+          "candidateid": 25,
+          "initials": "J.C.",
+          "firstname": "Jan",
+          "lastname": "Terlouw",
+          "gender": "",
+          "residence": "Twello"
+        }
+      ]
+    },
+    {
+      "listid": 2,
+      "listname": "CDA - Europese Volkspartij",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "E.M.R.",
+          "firstname": "Esther",
+          "lastnameprefix": "de",
+          "lastname": "Lange",
+          "gender": "female",
+          "residence": "Driebruggen"
+        },
+        {
+          "candidateid": 2,
+          "initials": "J.J.M.",
+          "firstname": "Jeroen",
+          "lastname": "Lenaers",
+          "gender": "male",
+          "residence": "Stramproy"
+        },
+        {
+          "candidateid": 3,
+          "initials": "T.B.W.",
+          "firstname": "Tom",
+          "lastname": "Berendsen",
+          "gender": "male",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 4,
+          "initials": "J.M.G.",
+          "firstname": "Annie",
+          "lastname": "Schreijer-Pierik",
+          "gender": "female",
+          "residence": "Hengevelde"
+        },
+        {
+          "candidateid": 5,
+          "initials": "H.J.",
+          "firstname": "Henk Jan",
+          "lastname": "Ormel",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 6,
+          "initials": "C.",
+          "firstname": "Chantal",
+          "lastname": "Hakbijl",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 7,
+          "initials": "D.R.",
+          "firstname": "Daan",
+          "lastname": "Versteeg",
+          "gender": "male",
+          "residence": "Naarden"
+        },
+        {
+          "candidateid": 8,
+          "initials": "J.",
+          "firstname": "Sjaak",
+          "lastnameprefix": "van der",
+          "lastname": "Tak",
+          "gender": "male",
+          "residence": "Honselersdijk"
+        },
+        {
+          "candidateid": 9,
+          "initials": "E.M.",
+          "firstname": "Eveline",
+          "lastname": "Herben",
+          "gender": "female",
+          "residence": "Woerden"
+        },
+        {
+          "candidateid": 10,
+          "initials": "R.W.",
+          "firstname": "Robert",
+          "lastnameprefix": "de",
+          "lastname": "Wit",
+          "gender": "male",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 11,
+          "initials": "J.A.H.",
+          "firstname": "Jimmy",
+          "lastname": "Bastings",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 12,
+          "initials": "C.A.I.J.",
+          "firstname": "Caspar",
+          "lastname": "Rutten",
+          "gender": "male",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 13,
+          "initials": "T.C.W.M.",
+          "firstname": "Theo",
+          "lastname": "Alkemade",
+          "gender": "male",
+          "residence": "Noordwijk"
+        },
+        {
+          "candidateid": 14,
+          "initials": "R.F.",
+          "firstname": "Friso",
+          "lastname": "Douwstra",
+          "gender": "male",
+          "residence": "Leeuwarden"
+        },
+        {
+          "candidateid": 15,
+          "initials": "B.J.",
+          "firstname": "Bas Jan",
+          "lastnameprefix": "van",
+          "lastname": "Bochove",
+          "gender": "male",
+          "residence": "Lelystad"
+        },
+        {
+          "candidateid": 16,
+          "initials": "A.J.",
+          "firstname": "Albert Jan",
+          "lastname": "Maat",
+          "gender": "male",
+          "residence": "Paterswolde"
+        },
+        {
+          "candidateid": 17,
+          "initials": "K.M.H.",
+          "firstname": "Karla",
+          "lastname": "Peijs",
+          "gender": "female",
+          "residence": "Harmelen"
+        }
+      ]
+    },
+    {
+      "listid": 3,
+      "listname": "PVV (Partij voor de Vrijheid)",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "M.J.R.L.",
+          "firstname": "Marcel",
+          "lastnameprefix": "de",
+          "lastname": "Graaff",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 2,
+          "initials": "O.F.",
+          "firstname": "Olaf",
+          "lastname": "Stuger",
+          "gender": "male",
+          "residence": "Bussum"
+        },
+        {
+          "candidateid": 3,
+          "initials": "A.J.",
+          "firstname": "Auke",
+          "lastname": "Zijlstra",
+          "gender": "male",
+          "residence": "Ridderkerk"
+        },
+        {
+          "candidateid": 4,
+          "initials": "A.",
+          "firstname": "Andre",
+          "lastname": "Elissen",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 5,
+          "initials": "I.H.C.",
+          "firstname": "Ino",
+          "lastnameprefix": "van den",
+          "lastname": "Besselaar",
+          "gender": "male",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 6,
+          "initials": "M.",
+          "firstname": "Marco",
+          "lastname": "Deen",
+          "gender": "male",
+          "residence": "Zandvoort"
+        },
+        {
+          "candidateid": 7,
+          "initials": "M.S.",
+          "firstname": "Menno",
+          "lastname": "Ludriks",
+          "gender": "male",
+          "residence": "Uithoorn"
+        },
+        {
+          "candidateid": 8,
+          "initials": "M.C.H.",
+          "firstname": "Maikel",
+          "lastname": "Boon",
+          "gender": "male",
+          "residence": "Bergen op Zoom"
+        },
+        {
+          "candidateid": 9,
+          "initials": "P.",
+          "firstname": "Patricia",
+          "lastnameprefix": "van der",
+          "lastname": "Kammen",
+          "gender": "female",
+          "residence": "Tilburg"
+        },
+        {
+          "candidateid": 10,
+          "initials": "G.",
+          "firstname": "Geert",
+          "lastname": "Wilders",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        }
+      ]
+    },
+    {
+      "listid": 4,
+      "listname": "VVD",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "M.",
+          "firstname": "Malik",
+          "lastname": "Azmani",
+          "gender": "male",
+          "residence": "Dalfsen"
+        },
+        {
+          "candidateid": 2,
+          "initials": "J.",
+          "firstname": "Jan",
+          "lastname": "Huitema",
+          "gender": "male",
+          "residence": "Makkinga"
+        },
+        {
+          "candidateid": 3,
+          "initials": "C.M.A.W.",
+          "firstname": "Caroline",
+          "lastname": "Nagtegaal-van Doorn",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "B.",
+          "firstname": "Bart",
+          "lastname": "Groothuis",
+          "gender": "male",
+          "residence": "Voorburg"
+        },
+        {
+          "candidateid": 5,
+          "initials": "E.N.A.J.",
+          "firstname": "Liesje",
+          "lastname": "Schreinemacher",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 6,
+          "initials": "H.C.",
+          "firstname": "Catharina",
+          "lastname": "Rinzema",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 7,
+          "initials": "R.J.",
+          "firstname": "Roelien",
+          "lastname": "Kamminga",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 8,
+          "initials": "M.",
+          "firstname": "Martijn",
+          "lastname": "Grevink",
+          "gender": "male",
+          "residence": "Voorburg"
+        },
+        {
+          "candidateid": 9,
+          "initials": "M.A.D.",
+          "firstname": "Monique",
+          "lastname": "Fasol",
+          "gender": "female",
+          "residence": "Haarlem"
+        },
+        {
+          "candidateid": 10,
+          "initials": "M.V.",
+          "firstname": "Michael",
+          "lastname": "Pistecky",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 11,
+          "initials": "W.M.",
+          "firstname": "Maurice",
+          "lastname": "Hoogeveen",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 12,
+          "initials": "S.B.",
+          "firstname": "Sjoerd",
+          "lastname": "Bakker",
+          "gender": "male",
+          "residence": "Bennekom"
+        },
+        {
+          "candidateid": 13,
+          "initials": "J.M.",
+          "firstname": "Jacques Michel",
+          "lastname": "Bloi",
+          "gender": "male",
+          "residence": "Landgraaf"
+        },
+        {
+          "candidateid": 14,
+          "initials": "R.N.",
+          "firstname": "René",
+          "lastname": "Bos",
+          "gender": "male",
+          "residence": "Zandvoort"
+        },
+        {
+          "candidateid": 15,
+          "initials": "M.E.P.",
+          "firstname": "Marc",
+          "lastname": "Clercx",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 16,
+          "initials": "B.E.A.",
+          "firstname": "Boaz",
+          "lastname": "Adank",
+          "gender": "male",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 17,
+          "initials": "D.G.P.",
+          "firstname": "Dominique",
+          "lastname": "Boelen",
+          "gender": "female",
+          "residence": "Melissant"
+        },
+        {
+          "candidateid": 18,
+          "initials": "I.S.",
+          "firstname": "Igor",
+          "lastname": "Bal",
+          "gender": "male",
+          "residence": "Spijkenisse"
+        },
+        {
+          "candidateid": 19,
+          "initials": "J.H.",
+          "firstname": "Johan",
+          "lastnameprefix": "van",
+          "lastname": "Rijn",
+          "gender": "male",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 20,
+          "initials": "C.D.",
+          "firstname": "Christiaan",
+          "lastname": "Zwart",
+          "gender": "male",
+          "residence": "Doorn"
+        },
+        {
+          "candidateid": 21,
+          "initials": "A.",
+          "firstname": "Anouk",
+          "lastnameprefix": "van",
+          "lastname": "Brug",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 22,
+          "initials": "J.J.E.",
+          "firstname": "Jeroen",
+          "lastname": "Janssen",
+          "gender": "male",
+          "residence": "Bunde"
+        },
+        {
+          "candidateid": 23,
+          "initials": "F.",
+          "firstname": "Falco",
+          "lastname": "Hoekstra",
+          "gender": "male",
+          "residence": "Heerhugowaard"
+        }
+      ]
+    },
+    {
+      "listid": 5,
+      "listname": "SP (Socialistische Partij)",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "A.J.",
+          "firstname": "Arnout",
+          "lastname": "Hoekstra",
+          "gender": "male",
+          "residence": "Vlaardingen"
+        },
+        {
+          "candidateid": 2,
+          "initials": "J.A.",
+          "firstname": "Jannie",
+          "lastname": "Visscher",
+          "gender": "female",
+          "residence": "Eindhoven"
+        },
+        {
+          "candidateid": 3,
+          "initials": "G.",
+          "firstname": "Geert",
+          "lastname": "Ritsema",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "R.",
+          "firstname": "Remine",
+          "lastname": "Alberts-Oosterbaan",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 5,
+          "initials": "F.",
+          "firstname": "Fenna",
+          "lastname": "Feenstra",
+          "gender": "female",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 6,
+          "initials": "S.A.",
+          "firstname": "Sara",
+          "lastname": "Murawski",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 7,
+          "initials": "W.R.",
+          "firstname": "Wouter",
+          "lastnameprefix": "van der",
+          "lastname": "Staak",
+          "gender": "male",
+          "residence": "Sint-Oedenrode"
+        },
+        {
+          "candidateid": 8,
+          "initials": "D.M.",
+          "firstname": "Diederik",
+          "lastnameprefix": "van der",
+          "lastname": "Loo",
+          "gender": "male",
+          "residence": "Wageningen"
+        },
+        {
+          "candidateid": 9,
+          "initials": "E.C.L.",
+          "firstname": "Ellen",
+          "lastname": "Verhoog",
+          "gender": "female",
+          "residence": "Zutphen"
+        },
+        {
+          "candidateid": 10,
+          "initials": "A.M.",
+          "firstname": "Ad",
+          "lastname": "Meijer",
+          "gender": "male",
+          "residence": "Amersfoort"
+        },
+        {
+          "candidateid": 11,
+          "initials": "D.",
+          "firstname": "Daphne",
+          "lastnameprefix": "ten",
+          "lastname": "Klooster",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 12,
+          "initials": "J.",
+          "firstname": "Jannie",
+          "lastname": "Drenthe",
+          "gender": "female",
+          "residence": "Assen"
+        },
+        {
+          "candidateid": 13,
+          "initials": "A.H.J.",
+          "firstname": "Ton",
+          "lastname": "Heerschop",
+          "gender": "male",
+          "residence": "Tegelen"
+        },
+        {
+          "candidateid": 14,
+          "initials": "W.L.M.",
+          "firstname": "William",
+          "lastnameprefix": "van den",
+          "lastname": "Heuvel",
+          "gender": "male",
+          "residence": "Hengelo (O)"
+        },
+        {
+          "candidateid": 15,
+          "initials": "G.J.",
+          "firstname": "Jan",
+          "lastname": "Zoll",
+          "gender": "male",
+          "residence": "Oss"
+        },
+        {
+          "candidateid": 16,
+          "initials": "M.",
+          "firstname": "Meltem",
+          "lastname": "Okcu",
+          "gender": "female",
+          "residence": "Capelle aan den IJssel"
+        },
+        {
+          "candidateid": 17,
+          "initials": "J.A.",
+          "firstname": "Josje",
+          "lastname": "Beukema",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 18,
+          "initials": "D.W.J.",
+          "firstname": "Diederik",
+          "lastname": "Olders",
+          "gender": "male",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 19,
+          "initials": "T.G.",
+          "firstname": "Tjitske",
+          "lastname": "Hoekstra",
+          "gender": "female",
+          "residence": "Rutten"
+        },
+        {
+          "candidateid": 20,
+          "initials": "G.",
+          "firstname": "Ger",
+          "lastnameprefix": "van",
+          "lastname": "Unen",
+          "gender": "female",
+          "residence": "Kloosterzande"
+        },
+        {
+          "candidateid": 21,
+          "initials": "L.R.",
+          "firstname": "Rosita",
+          "lastnameprefix": "van",
+          "lastname": "Gijlswijk",
+          "gender": "female",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 22,
+          "initials": "S.",
+          "firstname": "Sibel",
+          "lastname": "Özoğul-Özen",
+          "gender": "female",
+          "residence": "Haarlem"
+        },
+        {
+          "candidateid": 23,
+          "initials": "R.D.",
+          "firstname": "Renske",
+          "lastname": "Helmer-Englebert",
+          "gender": "female",
+          "residence": "Nijmegen"
+        },
+        {
+          "candidateid": 24,
+          "initials": "J.M.A.M.",
+          "firstname": "Jan",
+          "lastnameprefix": "de",
+          "lastname": "Wit",
+          "gender": "male",
+          "residence": "Heerlen"
+        },
+        {
+          "candidateid": 25,
+          "initials": "J.",
+          "firstname": "Jay",
+          "lastname": "Pahladsingh",
+          "gender": "male",
+          "residence": "Capelle aan den IJssel"
+        },
+        {
+          "candidateid": 26,
+          "initials": "J.B.",
+          "firstname": "Jos",
+          "lastnameprefix": "van der",
+          "lastname": "Horst",
+          "gender": "male",
+          "residence": "Drachten"
+        },
+        {
+          "candidateid": 27,
+          "initials": "N.M.",
+          "firstname": "Nicole",
+          "lastnameprefix": "van",
+          "lastname": "Gemert",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 28,
+          "initials": "L.H.",
+          "firstname": "Lisa",
+          "lastnameprefix": "de",
+          "lastname": "Leeuw",
+          "gender": "female",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 29,
+          "initials": "K.",
+          "firstname": "Krista",
+          "lastnameprefix": "van",
+          "lastname": "Velzen",
+          "gender": "female",
+          "residence": "Hall"
+        }
+      ]
+    },
+    {
+      "listid": 6,
+      "listname": "P.v.d.A./Europese Sociaaldemocraten",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "F.C.G.M.",
+          "firstname": "Frans",
+          "lastname": "Timmermans",
+          "gender": "male",
+          "residence": "Heerlen"
+        },
+        {
+          "candidateid": 2,
+          "initials": "A.M.",
+          "firstname": "Agnes",
+          "lastname": "Jongerius",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 3,
+          "initials": "P.J.G.",
+          "firstname": "Paul",
+          "lastname": "Tang",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "K.P.",
+          "firstname": "Kati",
+          "lastname": "Piri",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 5,
+          "initials": "V.E.R.",
+          "firstname": "Vera",
+          "lastname": "Tax",
+          "gender": "female",
+          "residence": "Venlo"
+        },
+        {
+          "candidateid": 6,
+          "initials": "M.",
+          "firstname": "Mohammed",
+          "lastname": "Chahim",
+          "gender": "male",
+          "residence": "Helmond"
+        },
+        {
+          "candidateid": 7,
+          "initials": "L.I.",
+          "firstname": "Lara",
+          "lastname": "Wolters",
+          "gender": "female",
+          "residence": ""
+        },
+        {
+          "candidateid": 8,
+          "initials": "M.J.A.",
+          "firstname": "Thijs",
+          "lastname": "Reuten",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 9,
+          "initials": "N.M.",
+          "firstname": "Naomi",
+          "lastname": "Woltring",
+          "gender": "female",
+          "residence": "Eindhoven"
+        },
+        {
+          "candidateid": 10,
+          "initials": "R.",
+          "firstname": "Ralph",
+          "lastnameprefix": "du",
+          "lastname": "Long",
+          "gender": "male",
+          "residence": "Assen"
+        },
+        {
+          "candidateid": 11,
+          "initials": "F.",
+          "firstname": "Fardau",
+          "lastname": "Procee",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 12,
+          "initials": "M.",
+          "firstname": "Mark",
+          "lastname": "Lauriks",
+          "gender": "male",
+          "residence": "Oosterbeek"
+        },
+        {
+          "candidateid": 13,
+          "initials": "S.",
+          "firstname": "Sham",
+          "lastname": "Ahmed",
+          "gender": "female",
+          "residence": "Tilburg"
+        },
+        {
+          "candidateid": 14,
+          "initials": "K.J.R.",
+          "firstname": "Kavish",
+          "lastname": "Bisseswar",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 15,
+          "initials": "A.",
+          "firstname": "Arina",
+          "lastname": "Angerman",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 16,
+          "initials": "B.",
+          "firstname": "Bart",
+          "lastname": "Pierik",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 17,
+          "initials": "A.A.",
+          "firstname": "Albert",
+          "lastnameprefix": "de",
+          "lastname": "Vries",
+          "gender": "male",
+          "residence": "Middelburg"
+        },
+        {
+          "candidateid": 18,
+          "initials": "A.J.",
+          "firstname": "Anja",
+          "lastname": "Timmer",
+          "gender": "female",
+          "residence": "Hengelo (O)"
+        },
+        {
+          "candidateid": 19,
+          "initials": "H.S.",
+          "firstname": "Henk",
+          "lastname": "Deinum",
+          "gender": "male",
+          "residence": "Raerd"
+        },
+        {
+          "candidateid": 20,
+          "initials": "R.",
+          "firstname": "Richard",
+          "lastname": "Moti",
+          "gender": "male",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 21,
+          "initials": "J.A.",
+          "firstname": "Jerzy",
+          "lastname": "Soetekouw",
+          "gender": "male",
+          "residence": "Almere"
+        },
+        {
+          "candidateid": 22,
+          "initials": "M.J.",
+          "firstname": "Max",
+          "lastnameprefix": "van den",
+          "lastname": "Berg",
+          "gender": "male",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 23,
+          "initials": "H.",
+          "firstname": "Hedy",
+          "lastnameprefix": "d'",
+          "lastname": "Ancona",
+          "gender": "female",
+          "residence": "Amsterdam"
+        }
+      ]
+    },
+    {
+      "listid": 7,
+      "listname": "ChristenUnie-SGP",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "P.",
+          "firstname": "Peter",
+          "lastnameprefix": "van",
+          "lastname": "Dalen",
+          "gender": "male",
+          "residence": "Houten"
+        },
+        {
+          "candidateid": 2,
+          "initials": "H.J.A.",
+          "firstname": "Bert-Jan",
+          "lastname": "Ruissen",
+          "gender": "male",
+          "residence": "Krimpen aan den IJssel"
+        },
+        {
+          "candidateid": 3,
+          "initials": "A.",
+          "firstname": "Anja",
+          "lastname": "Haga",
+          "gender": "female",
+          "residence": "Dokkum"
+        },
+        {
+          "candidateid": 4,
+          "initials": "A.T.",
+          "firstname": "Anne",
+          "lastname": "Strijker",
+          "gender": "male",
+          "residence": "Amersfoort"
+        },
+        {
+          "candidateid": 5,
+          "initials": "H.",
+          "firstname": "Henk",
+          "lastnameprefix": "van den",
+          "lastname": "Berge",
+          "gender": "male",
+          "residence": "Apeldoorn"
+        },
+        {
+          "candidateid": 6,
+          "initials": "A.N.",
+          "firstname": "Arjen",
+          "lastname": "Droog",
+          "gender": "male",
+          "residence": "Lunteren"
+        },
+        {
+          "candidateid": 7,
+          "initials": "E.",
+          "firstname": "Evert-Jan",
+          "lastname": "Brouwer",
+          "gender": "male",
+          "residence": "Gouda"
+        },
+        {
+          "candidateid": 8,
+          "initials": "S.J.",
+          "firstname": "Simone",
+          "lastname": "Kennedy-Doornbos",
+          "gender": "female",
+          "residence": "Amersfoort"
+        },
+        {
+          "candidateid": 9,
+          "initials": "J.H.",
+          "firstname": "Jannes",
+          "lastnameprefix": "de",
+          "lastname": "Jong",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 10,
+          "initials": "G.A.",
+          "firstname": "Gijsbrecht",
+          "lastname": "Gunter",
+          "gender": "male",
+          "residence": "Nieuwdorp"
+        },
+        {
+          "candidateid": 11,
+          "initials": "J.",
+          "firstname": "Johanna",
+          "lastname": "Koffeman-Kramer",
+          "gender": "female",
+          "residence": "Urk"
+        },
+        {
+          "candidateid": 12,
+          "initials": "A.",
+          "firstname": "Arnold",
+          "lastname": "Versteeg",
+          "gender": "male",
+          "residence": "Wekerom"
+        },
+        {
+          "candidateid": 13,
+          "initials": "A.D.J.M.",
+          "firstname": "Anil",
+          "lastname": "Kumar",
+          "gender": "male",
+          "residence": "Zoetermeer"
+        },
+        {
+          "candidateid": 14,
+          "initials": "K.A.",
+          "firstname": "Klariska",
+          "lastnameprefix": "ten",
+          "lastname": "Napel",
+          "gender": "female",
+          "residence": "Zwolle"
+        },
+        {
+          "candidateid": 15,
+          "initials": "H.F.",
+          "firstname": "Henk",
+          "lastname": "Massink",
+          "gender": "male",
+          "residence": "Houten"
+        },
+        {
+          "candidateid": 16,
+          "initials": "J.H.",
+          "firstname": "Jan Henk",
+          "lastname": "Verburg",
+          "gender": "male",
+          "residence": "Goes"
+        },
+        {
+          "candidateid": 17,
+          "initials": "P.N.",
+          "firstname": "Nathanaël",
+          "lastname": "Middelkoop",
+          "gender": "male",
+          "residence": "Urk"
+        },
+        {
+          "candidateid": 18,
+          "initials": "P.T.A.",
+          "firstname": "Patience",
+          "lastname": "Mayaki-van der Horst",
+          "gender": "female",
+          "residence": "Ulft"
+        },
+        {
+          "candidateid": 19,
+          "initials": "E.J.",
+          "firstname": "Efraïm",
+          "lastname": "Hart",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 20,
+          "initials": "P.J.L.",
+          "firstname": "Leonard",
+          "lastnameprefix": "den",
+          "lastname": "Boef",
+          "gender": "male",
+          "residence": "Houten"
+        },
+        {
+          "candidateid": 21,
+          "initials": "M.J.",
+          "firstname": "Maaike",
+          "lastname": "Niemeijer-Schaap",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 22,
+          "initials": "H.",
+          "firstname": "Henri",
+          "lastname": "Krooneman",
+          "gender": "male",
+          "residence": "Veenendaal"
+        },
+        {
+          "candidateid": 23,
+          "initials": "Z.J.B.",
+          "firstname": "Bryant",
+          "lastname": "Heng",
+          "gender": "male",
+          "residence": "Almere"
+        },
+        {
+          "candidateid": 24,
+          "initials": "F.J.C.",
+          "firstname": "Jarno",
+          "lastname": "Volmer",
+          "gender": "male",
+          "residence": "Lelystad"
+        },
+        {
+          "candidateid": 25,
+          "initials": "J.W.",
+          "firstname": "Hans",
+          "lastname": "Keuken",
+          "gender": "male",
+          "residence": "Ochten"
+        },
+        {
+          "candidateid": 26,
+          "initials": "R.",
+          "firstname": "Rob",
+          "lastname": "Jonkman",
+          "gender": "male",
+          "residence": "Siegerswoude"
+        },
+        {
+          "candidateid": 27,
+          "initials": "A.",
+          "firstname": "Ardjan",
+          "lastname": "Boersma",
+          "gender": "male",
+          "residence": "Papendrecht"
+        },
+        {
+          "candidateid": 28,
+          "initials": "M.J.",
+          "firstname": "Maarten",
+          "lastnameprefix": "van de",
+          "lastname": "Fliert",
+          "gender": "male",
+          "residence": "Harderwijk"
+        },
+        {
+          "candidateid": 29,
+          "initials": "D.G.M.",
+          "firstname": "Don",
+          "lastname": "Ceder",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 30,
+          "initials": "J.A.",
+          "firstname": "Jan",
+          "lastname": "Schippers",
+          "gender": "male",
+          "residence": "Rotterdam"
+        }
+      ]
+    },
+    {
+      "listid": 8,
+      "listname": "GROENLINKS",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "B.",
+          "firstname": "Bas",
+          "lastname": "Eickhout",
+          "gender": "male",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 2,
+          "initials": "M.H.A.",
+          "firstname": "Tineke",
+          "lastname": "Strik",
+          "gender": "female",
+          "residence": "Oosterbeek"
+        },
+        {
+          "candidateid": 3,
+          "initials": "E.A.",
+          "firstname": "Eline",
+          "lastnameprefix": "van",
+          "lastname": "Nistelrooij",
+          "gender": "female",
+          "residence": ""
+        },
+        {
+          "candidateid": 4,
+          "initials": "D.J.",
+          "firstname": "Dirk-Jan",
+          "lastname": "Koch",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 5,
+          "initials": "S.",
+          "firstname": "Sabine",
+          "lastname": "Klok",
+          "gender": "female",
+          "residence": ""
+        },
+        {
+          "candidateid": 6,
+          "initials": "R.J.",
+          "firstname": "Jasper",
+          "lastname": "Groen",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 7,
+          "initials": "K.",
+          "firstname": "Kim",
+          "lastnameprefix": "van",
+          "lastname": "Sparrentak",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "M.",
+          "firstname": "Sander",
+          "lastname": "Chan",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 9,
+          "initials": "J.",
+          "firstname": "Jeroni",
+          "lastname": "Vergeer",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 10,
+          "initials": "C.",
+          "firstname": "Claudia",
+          "lastname": "Hofemann",
+          "gender": "female",
+          "residence": "Delft"
+        },
+        {
+          "candidateid": 11,
+          "initials": "P.M.",
+          "firstname": "Patricia",
+          "lastname": "Brunklaus",
+          "gender": "female",
+          "residence": "Raamsdonk"
+        },
+        {
+          "candidateid": 12,
+          "initials": "A.S.",
+          "firstname": "Sjoukje",
+          "lastnameprefix": "van",
+          "lastname": "Oosterhout",
+          "gender": "female",
+          "residence": ""
+        },
+        {
+          "candidateid": 13,
+          "initials": "H.I.",
+          "firstname": "Hagar",
+          "lastname": "Roijackers",
+          "gender": "female",
+          "residence": "'s-Hertogenbosch"
+        },
+        {
+          "candidateid": 14,
+          "initials": "M.",
+          "firstname": "Mieke",
+          "lastnameprefix": "van der",
+          "lastname": "Vegt",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 15,
+          "initials": "S.J.H.",
+          "firstname": "Sylvana",
+          "lastname": "Rikkert",
+          "gender": "female",
+          "residence": "Zwolle"
+        },
+        {
+          "candidateid": 16,
+          "initials": "T.",
+          "firstname": "Touria",
+          "lastname": "Meliani",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 17,
+          "initials": "M.P.A.G.",
+          "firstname": "Marij",
+          "lastname": "Pollux",
+          "gender": "female",
+          "residence": "Venlo"
+        },
+        {
+          "candidateid": 18,
+          "initials": "G.",
+          "firstname": "Glimina",
+          "lastname": "Chakor",
+          "gender": "female",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 19,
+          "initials": "C.C.",
+          "firstname": "Cathelijne",
+          "lastname": "Bouwkamp",
+          "gender": "female",
+          "residence": "Arnhem"
+        },
+        {
+          "candidateid": 20,
+          "initials": "J.",
+          "firstname": "Judith",
+          "lastname": "Sargentini",
+          "gender": "female",
+          "residence": "Amsterdam"
+        }
+      ]
+    },
+    {
+      "listid": 9,
+      "listname": "Partij voor de Dieren",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "A.A.H.",
+          "firstname": "Anja",
+          "lastname": "Hazekamp",
+          "gender": "",
+          "residence": ""
+        },
+        {
+          "candidateid": 2,
+          "initials": "F.P.",
+          "firstname": "Frank",
+          "lastname": "Wassenberg",
+          "gender": "",
+          "residence": "Geleen"
+        },
+        {
+          "candidateid": 3,
+          "initials": "M.C.",
+          "firstname": "Marco",
+          "lastnameprefix": "van der",
+          "lastname": "Wel",
+          "gender": "",
+          "residence": "Rijsbergen"
+        },
+        {
+          "candidateid": 4,
+          "initials": "J.F.W.",
+          "firstname": "Johnas",
+          "lastnameprefix": "van",
+          "lastname": "Lammeren",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 5,
+          "initials": "L.R.",
+          "firstname": "Luuk",
+          "lastnameprefix": "van der",
+          "lastname": "Veer",
+          "gender": "",
+          "residence": "Apeldoorn"
+        },
+        {
+          "candidateid": 6,
+          "initials": "G.S.L.",
+          "firstname": "Stephanie",
+          "lastnameprefix": "van",
+          "lastname": "Voorthuizen",
+          "gender": "",
+          "residence": "Soest"
+        },
+        {
+          "candidateid": 7,
+          "initials": "E.S.",
+          "firstname": "Eva",
+          "lastname": "Akerboom",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "A.H.K.",
+          "firstname": "Carla",
+          "lastnameprefix": "van",
+          "lastname": "Viegen",
+          "gender": "",
+          "residence": "Pijnacker"
+        },
+        {
+          "candidateid": 9,
+          "initials": "P.S.M.L.",
+          "firstname": "Pascale",
+          "lastname": "Plusquin",
+          "gender": "",
+          "residence": "Heerlen"
+        },
+        {
+          "candidateid": 10,
+          "initials": "M.",
+          "firstname": "Maaike",
+          "lastname": "Moulijn",
+          "gender": "",
+          "residence": "Beekbergen"
+        },
+        {
+          "candidateid": 11,
+          "initials": "M.E.C.",
+          "firstname": "Michelle",
+          "lastnameprefix": "van",
+          "lastname": "Doorn",
+          "gender": "",
+          "residence": "Nijmegen"
+        },
+        {
+          "candidateid": 12,
+          "initials": "S.E.",
+          "firstname": "Sebastiaan",
+          "lastname": "Wolswinkel",
+          "gender": "",
+          "residence": "Oldeberkoop"
+        },
+        {
+          "candidateid": 13,
+          "initials": "M.G.W.",
+          "firstname": "Matt",
+          "lastname": "Kanters",
+          "gender": "",
+          "residence": "Boekel"
+        },
+        {
+          "candidateid": 14,
+          "initials": "F.",
+          "firstname": "Falco",
+          "lastnameprefix": "van",
+          "lastname": "Hassel",
+          "gender": "",
+          "residence": "Born"
+        },
+        {
+          "candidateid": 15,
+          "initials": "J.K.P.",
+          "firstname": "Kelly",
+          "lastname": "Mannoesingh",
+          "gender": "",
+          "residence": "Nijmegen"
+        },
+        {
+          "candidateid": 16,
+          "initials": "T.",
+          "firstname": "Tim",
+          "lastname": "Feij",
+          "gender": "",
+          "residence": "Maastricht"
+        },
+        {
+          "candidateid": 17,
+          "initials": "K.",
+          "firstname": "Kirsten",
+          "lastnameprefix": "de",
+          "lastname": "Wrede",
+          "gender": "",
+          "residence": "Groningen"
+        },
+        {
+          "candidateid": 18,
+          "initials": "L.",
+          "firstname": "Leonie",
+          "lastname": "Vestering",
+          "gender": "",
+          "residence": "Almere"
+        },
+        {
+          "candidateid": 19,
+          "initials": "E.R.",
+          "firstname": "Ewald",
+          "lastname": "Engelen",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 20,
+          "initials": "E.",
+          "firstname": "Esther",
+          "lastname": "Ouwehand",
+          "gender": "",
+          "residence": "Leiden"
+        }
+      ]
+    },
+    {
+      "listid": 10,
+      "listname": "50PLUS",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "A.J.M.",
+          "firstname": "Toine",
+          "lastname": "Manders",
+          "gender": "male",
+          "residence": "Asten"
+        },
+        {
+          "candidateid": 2,
+          "initials": "K.L.R.",
+          "firstname": "Roy",
+          "lastname": "Ho Ten Soeng",
+          "gender": "male",
+          "residence": "Venhuizen"
+        },
+        {
+          "candidateid": 3,
+          "initials": "G.L.C.",
+          "firstname": "George",
+          "lastname": "Lernout",
+          "gender": "male",
+          "residence": "Sint Jansteen"
+        },
+        {
+          "candidateid": 4,
+          "initials": "E.C.",
+          "firstname": "Emmy",
+          "lastnameprefix": "van der",
+          "lastname": "Kleij",
+          "gender": "female",
+          "residence": "Lelystad"
+        },
+        {
+          "candidateid": 5,
+          "initials": "M.M.C.",
+          "firstname": "Marlon",
+          "lastnameprefix": "van",
+          "lastname": "Dalen",
+          "gender": "female",
+          "residence": "Hilversum"
+        },
+        {
+          "candidateid": 6,
+          "initials": "A.",
+          "firstname": "Adriana",
+          "lastname": "Hernández Martínez",
+          "gender": "female",
+          "residence": "'s-Hertogenbosch"
+        },
+        {
+          "candidateid": 7,
+          "initials": "W.",
+          "firstname": "Wilma",
+          "lastname": "Richter",
+          "gender": "female",
+          "residence": "Eindhoven"
+        },
+        {
+          "candidateid": 8,
+          "initials": "E.M.N.",
+          "firstname": "Nicoline",
+          "lastname": "Maarschalk Meijer",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 9,
+          "initials": "A.M.B.",
+          "firstname": "Bennie",
+          "lastnameprefix": "van",
+          "lastname": "Est",
+          "gender": "male",
+          "residence": "Maastricht"
+        },
+        {
+          "candidateid": 10,
+          "initials": "J.H.",
+          "firstname": "Sjef",
+          "lastnameprefix": "van",
+          "lastname": "Put",
+          "gender": "male",
+          "residence": "Delft"
+        },
+        {
+          "candidateid": 11,
+          "initials": "J.C.",
+          "firstname": "Johan",
+          "lastname": "Hessing",
+          "gender": "male",
+          "residence": "Axel"
+        },
+        {
+          "candidateid": 12,
+          "initials": "R.F.",
+          "firstname": "Roberto",
+          "lastname": "Schols",
+          "gender": "male",
+          "residence": "Aalsmeer"
+        },
+        {
+          "candidateid": 13,
+          "initials": "H.C.",
+          "firstname": "Helen",
+          "lastname": "Stuger",
+          "gender": "female",
+          "residence": ""
+        },
+        {
+          "candidateid": 14,
+          "initials": "L.M.M.",
+          "firstname": "Lorenzo",
+          "lastnameprefix": "van der",
+          "lastname": "Weiden",
+          "gender": "male",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 15,
+          "initials": "R.P.J.J.",
+          "firstname": "Rob",
+          "lastnameprefix": "van den",
+          "lastname": "Hoek",
+          "gender": "male",
+          "residence": "Driebergen-Rijsenburg"
+        },
+        {
+          "candidateid": 16,
+          "initials": "A.C.P.",
+          "firstname": "Ándre",
+          "lastnameprefix": "van",
+          "lastname": "Wanrooij",
+          "gender": "male",
+          "residence": ""
+        },
+        {
+          "candidateid": 17,
+          "initials": "K.",
+          "firstname": "Klaas",
+          "lastname": "Hamersma",
+          "gender": "male",
+          "residence": "Hoogezand"
+        },
+        {
+          "candidateid": 18,
+          "initials": "R.",
+          "firstname": "Rosa",
+          "lastname": "Molenaar",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 19,
+          "initials": "R.H.",
+          "firstname": "Ruud",
+          "lastnameprefix": "van",
+          "lastname": "Acquoij",
+          "gender": "male",
+          "residence": "Eindhoven"
+        },
+        {
+          "candidateid": 20,
+          "initials": "M.M.H.",
+          "firstname": "Monique",
+          "lastname": "Sanders",
+          "gender": "female",
+          "residence": "Best"
+        },
+        {
+          "candidateid": 21,
+          "initials": "F.E.",
+          "firstname": "Frank",
+          "lastname": "Engelman",
+          "gender": "male",
+          "residence": "Heemstede"
+        },
+        {
+          "candidateid": 22,
+          "initials": "W.R.",
+          "firstname": "Roy",
+          "lastname": "Zuiverloon",
+          "gender": "male",
+          "residence": "Lelystad"
+        },
+        {
+          "candidateid": 23,
+          "initials": "T.M.J.",
+          "firstname": "Theo",
+          "lastname": "Hoppenbrouwers",
+          "gender": "male",
+          "residence": "Eindhoven"
+        },
+        {
+          "candidateid": 24,
+          "initials": "C.M.",
+          "firstname": "Corrie",
+          "lastnameprefix": "van",
+          "lastname": "Brenk",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 25,
+          "initials": "M.J.",
+          "firstname": "Martin",
+          "lastnameprefix": "van",
+          "lastname": "Rooijen",
+          "gender": "male",
+          "residence": "Oegstgeest"
+        },
+        {
+          "candidateid": 26,
+          "initials": "L.",
+          "firstname": "Léonie",
+          "lastname": "Sazias",
+          "gender": "female",
+          "residence": "Hilversum"
+        },
+        {
+          "candidateid": 27,
+          "initials": "H.C.M.",
+          "firstname": "Henk",
+          "lastname": "Krol",
+          "gender": "male",
+          "residence": "Eindhoven"
+        }
+      ]
+    },
+    {
+      "listid": 11,
+      "listname": "JEZUS LEEFT",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "F.I.A.",
+          "lastnameprefix": "van der",
+          "lastname": "Spek",
+          "gender": "",
+          "residence": "Giessenburg"
+        },
+        {
+          "candidateid": 2,
+          "initials": "M.J.",
+          "lastname": "Westhoven",
+          "gender": "",
+          "residence": "Almere"
+        },
+        {
+          "candidateid": 3,
+          "initials": "J.A.C.",
+          "lastnameprefix": "van",
+          "lastname": "Ooijen",
+          "gender": "",
+          "residence": "Giessenburg"
+        }
+      ]
+    },
+    {
+      "listid": 12,
+      "listname": "DENK",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "A.",
+          "firstname": "Ayhan",
+          "lastname": "Tonca",
+          "gender": "male",
+          "residence": "Apeldoorn"
+        },
+        {
+          "candidateid": 2,
+          "initials": "A.",
+          "firstname": "Aiman",
+          "lastname": "El-Gharabawy",
+          "gender": "male",
+          "residence": "Delft"
+        },
+        {
+          "candidateid": 3,
+          "initials": "N.",
+          "firstname": "Nadia",
+          "lastname": "El Ouahdani",
+          "gender": "female",
+          "residence": "Rijswijk"
+        },
+        {
+          "candidateid": 4,
+          "initials": "G. E. E.",
+          "firstname": "Gideon",
+          "lastname": "Everduim",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 5,
+          "initials": "M. L.",
+          "firstname": "Luiza",
+          "lastname": "Soares",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 6,
+          "initials": "H.M.",
+          "firstname": "Huda",
+          "lastname": "Sufyan",
+          "gender": "female",
+          "residence": "Enschede"
+        },
+        {
+          "candidateid": 7,
+          "initials": "N.",
+          "firstname": "Naida",
+          "lastname": "Ribić-Gradečak",
+          "gender": "female",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 8,
+          "initials": "H.A.",
+          "firstname": "Harry",
+          "lastnameprefix": "van",
+          "lastname": "Heerden",
+          "gender": "male",
+          "residence": "Wijk aan Zee"
+        },
+        {
+          "candidateid": 9,
+          "initials": "M. I.",
+          "firstname": "Ibrahim",
+          "lastname": "Ghazi",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 10,
+          "initials": "S.Z.S.",
+          "firstname": "Sarah",
+          "lastname": "Al-Rubey",
+          "gender": "female",
+          "residence": "Maastricht"
+        },
+        {
+          "candidateid": 11,
+          "initials": "Ş.",
+          "firstname": "Şerif",
+          "lastname": "Uysal",
+          "gender": "male",
+          "residence": "Middelburg"
+        },
+        {
+          "candidateid": 12,
+          "initials": "G.",
+          "firstname": "Gladys",
+          "lastname": "Albitrouw",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 13,
+          "initials": "F.",
+          "firstname": "Farid",
+          "lastname": "Azarkan",
+          "gender": "male",
+          "residence": "Culemborg"
+        },
+        {
+          "candidateid": 14,
+          "initials": "T.",
+          "firstname": "Tunahan",
+          "lastname": "Kuzu",
+          "gender": "male",
+          "residence": "Rotterdam"
+        }
+      ]
+    },
+    {
+      "listid": 13,
+      "listname": "De Groenen",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "P.",
+          "firstname": "Paul",
+          "lastname": "Berendsen",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 2,
+          "initials": "A.P.A.",
+          "firstname": "Angela",
+          "lastname": "Zikking",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 3,
+          "initials": "R.M.E.",
+          "firstname": "Reina",
+          "lastnameprefix": "van",
+          "lastname": "Zwoll",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "W.",
+          "firstname": "Wim",
+          "lastname": "Bijma",
+          "gender": "male",
+          "residence": "Gouda"
+        },
+        {
+          "candidateid": 5,
+          "initials": "T.F.M.",
+          "firstname": "Tom",
+          "lastname": "Bakkers",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 6,
+          "initials": "L.",
+          "firstname": "Luuk",
+          "lastname": "Hofman",
+          "gender": "male",
+          "residence": "Duivendrecht"
+        },
+        {
+          "candidateid": 7,
+          "initials": "A.J.R.",
+          "firstname": "Adriaan",
+          "lastname": "Smeekes",
+          "gender": "male",
+          "residence": "Oosterhout"
+        },
+        {
+          "candidateid": 8,
+          "initials": "E.J.",
+          "firstname": "Nora",
+          "lastname": "Borsboom",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 9,
+          "initials": "C.J.T.",
+          "firstname": "Hans",
+          "lastname": "Baarslag",
+          "gender": "male",
+          "residence": "Wierden"
+        },
+        {
+          "candidateid": 10,
+          "initials": "D.",
+          "firstname": "David",
+          "lastname": "Blik",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 11,
+          "initials": "V.E.",
+          "firstname": "Vera",
+          "lastnameprefix": "ter",
+          "lastname": "Haar - van Oyen",
+          "gender": "female",
+          "residence": "Culemborg"
+        }
+      ]
+    },
+    {
+      "listid": 14,
+      "listname": "Forum voor Democratie",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "D.J.",
+          "lastname": "Eppink",
+          "gender": "",
+          "residence": ""
+        },
+        {
+          "candidateid": 2,
+          "initials": "R.B.S.",
+          "lastname": "Roos",
+          "gender": "",
+          "residence": "Poortugaal"
+        },
+        {
+          "candidateid": 3,
+          "initials": "R.J.",
+          "lastname": "Rooken",
+          "gender": "",
+          "residence": "Muiderberg"
+        },
+        {
+          "candidateid": 4,
+          "initials": "D.",
+          "lastname": "Rookmaker",
+          "gender": "",
+          "residence": "Hattem"
+        },
+        {
+          "candidateid": 5,
+          "initials": "M.P.",
+          "lastname": "Hoogeveen",
+          "gender": "",
+          "residence": "Leiden"
+        },
+        {
+          "candidateid": 6,
+          "initials": "F.J.H.",
+          "lastname": "Jansen",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 7,
+          "initials": "S.E.P.",
+          "lastnameprefix": "van",
+          "lastname": "Odijk",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "G.F.C.",
+          "lastnameprefix": "van",
+          "lastname": "Meijeren",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 9,
+          "initials": "A.J.A.",
+          "lastname": "Beukering",
+          "gender": "",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 10,
+          "initials": "A.H.J.W.",
+          "lastnameprefix": "van",
+          "lastname": "Schijndel",
+          "gender": "",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 11,
+          "initials": "P.M.L.",
+          "lastname": "Frentrop",
+          "gender": "",
+          "residence": "Bloemendaal"
+        },
+        {
+          "candidateid": 12,
+          "initials": "T.H.P.",
+          "lastname": "Baudet",
+          "gender": "",
+          "residence": "Amsterdam"
+        }
+      ]
+    },
+    {
+      "listid": 15,
+      "listname": "vandeRegio & Piratenpartij",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "S.G.",
+          "firstname": "Sent",
+          "lastname": "Wierda",
+          "gender": "male",
+          "residence": "Apeldoorn"
+        },
+        {
+          "candidateid": 2,
+          "initials": "A.",
+          "firstname": "Ahmed",
+          "lastname": "Aarad",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 3,
+          "initials": "A.C.",
+          "firstname": "André",
+          "lastname": "Linnenbank",
+          "gender": "male",
+          "residence": "Zaandam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "J.A.",
+          "firstname": "John",
+          "lastname": "Sweenen",
+          "gender": "male",
+          "residence": "Kootwijkerbroek"
+        },
+        {
+          "candidateid": 5,
+          "initials": "A.M.",
+          "firstname": "Astrid",
+          "lastname": "Abendroth",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 6,
+          "initials": "K.",
+          "firstname": "Karim",
+          "lastname": "Maassen",
+          "gender": "male",
+          "residence": "Maastricht"
+        },
+        {
+          "candidateid": 7,
+          "initials": "L.J.",
+          "firstname": "Leo",
+          "lastnameprefix": "van",
+          "lastname": "Oudheusden",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "M.C.",
+          "firstname": "Maarten",
+          "lastname": "Wienbelt",
+          "gender": "male",
+          "residence": "Oosterbeek"
+        },
+        {
+          "candidateid": 9,
+          "initials": "D.G.",
+          "firstname": "Daniel",
+          "lastnameprefix": "van",
+          "lastname": "Tulder",
+          "gender": "male",
+          "residence": "Nijmegen"
+        },
+        {
+          "candidateid": 10,
+          "initials": "A.F.J.",
+          "firstname": "Antoon",
+          "lastname": "Huigens",
+          "gender": "male",
+          "residence": "Apeldoorn"
+        },
+        {
+          "candidateid": 11,
+          "initials": "A.",
+          "firstname": "Rianne",
+          "lastname": "Orsel",
+          "gender": "female",
+          "residence": "Nieuwe Pekela"
+        },
+        {
+          "candidateid": 12,
+          "initials": "A.",
+          "firstname": "Anne",
+          "lastnameprefix": "de",
+          "lastname": "Bruijn",
+          "gender": "male",
+          "residence": "Hellevoetsluis"
+        },
+        {
+          "candidateid": 13,
+          "initials": "H.",
+          "firstname": "Rakesh",
+          "lastname": "Mijling",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 14,
+          "initials": "D.R.",
+          "firstname": "Danny",
+          "lastname": "Werner",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 15,
+          "initials": "T.",
+          "firstname": "Teunis",
+          "lastnameprefix": "van",
+          "lastname": "Nes",
+          "gender": "male",
+          "residence": "Kloetinge"
+        },
+        {
+          "candidateid": 16,
+          "initials": "T.",
+          "firstname": "Tim",
+          "lastname": "Weening",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 17,
+          "initials": "K.A.",
+          "firstname": "Khalid",
+          "lastname": "Chaudry",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 18,
+          "initials": "J.G.P.",
+          "firstname": "Jan",
+          "lastname": "Best",
+          "gender": "male",
+          "residence": "Baarn"
+        },
+        {
+          "candidateid": 19,
+          "initials": "G.J.",
+          "firstname": "Gertjan",
+          "lastname": "Kleinpaste",
+          "gender": "male",
+          "residence": "Dordrecht"
+        },
+        {
+          "candidateid": 20,
+          "initials": "M.A.",
+          "firstname": "Matthijs",
+          "lastname": "Pontier",
+          "gender": "male",
+          "residence": "Amsterdam"
+        }
+      ]
+    },
+    {
+      "listid": 16,
+      "listname": "Volt Nederland",
+      "candidates": [
+        {
+          "candidateid": 1,
+          "initials": "R.J.A.",
+          "firstname": "Reinier",
+          "lastnameprefix": "van",
+          "lastname": "Lanschot",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 2,
+          "initials": "N.",
+          "firstname": "Nilüfer",
+          "lastname": "Vogels",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 3,
+          "initials": "L.A.J.M.",
+          "firstname": "Laurens",
+          "lastname": "Dassen",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 4,
+          "initials": "E.G.R.",
+          "firstname": "Bibi",
+          "lastname": "Wielinga",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 5,
+          "initials": "L.J.",
+          "firstname": "Lars",
+          "lastname": "Jongerius",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 6,
+          "initials": "J.",
+          "firstname": "Juliet",
+          "lastname": "Broersen",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 7,
+          "initials": "C.G.",
+          "firstname": "Chris",
+          "lastname": "Luth",
+          "gender": "male",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 8,
+          "initials": "I.V.",
+          "firstname": "Ilca",
+          "lastname": "Italianer",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 9,
+          "initials": "C.W.A.",
+          "firstname": "Coen",
+          "lastnameprefix": "van de",
+          "lastname": "Kraats",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 10,
+          "initials": "L.",
+          "firstname": "Liping",
+          "lastname": "Oerlemans",
+          "gender": "female",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 11,
+          "initials": "T.E.",
+          "firstname": "Tom",
+          "lastname": "Bolsius",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 12,
+          "initials": "A.",
+          "firstname": "Aida",
+          "lastname": "Tunović",
+          "gender": "female",
+          "residence": "Delft"
+        },
+        {
+          "candidateid": 13,
+          "initials": "J.P.",
+          "firstname": "Jasper",
+          "lastname": "Munnichs",
+          "gender": "male",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 14,
+          "initials": "R.",
+          "firstname": "Roos",
+          "lastname": "Habets",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 15,
+          "initials": "J.P.",
+          "firstname": "Jason",
+          "lastname": "Halbgewachs",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 16,
+          "initials": "E.",
+          "firstname": "Elske",
+          "lastname": "Kroesen",
+          "gender": "female",
+          "residence": "Heemstede"
+        },
+        {
+          "candidateid": 17,
+          "initials": "K.M.",
+          "firstname": "Koen",
+          "lastname": "Janssen",
+          "gender": "male",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 18,
+          "initials": "D.",
+          "firstname": "Doke",
+          "lastname": "Hoekstra",
+          "gender": "female",
+          "residence": "Amsterdam"
+        },
+        {
+          "candidateid": 19,
+          "initials": "B.",
+          "firstname": "Boris",
+          "lastnameprefix": "van",
+          "lastname": "Bokhoven",
+          "gender": "male",
+          "residence": "'s-Gravenhage"
+        },
+        {
+          "candidateid": 20,
+          "initials": "R.",
+          "firstname": "Reyhan",
+          "lastname": "Çiğdem",
+          "gender": "female",
+          "residence": "Rotterdam"
+        },
+        {
+          "candidateid": 21,
+          "initials": "M.A.N.",
+          "firstname": "Mark",
+          "lastname": "Coenen",
+          "gender": "male",
+          "residence": "Breda"
+        },
+        {
+          "candidateid": 22,
+          "initials": "M.",
+          "firstname": "Marieke",
+          "lastname": "Koekkoek",
+          "gender": "female",
+          "residence": "Utrecht"
+        },
+        {
+          "candidateid": 23,
+          "initials": "E.P.",
+          "firstname": "Elmar",
+          "lastname": "Theune",
+          "gender": "female",
+          "residence": "Wageningen"
+        },
+        {
+          "candidateid": 24,
+          "initials": "J.J.",
+          "firstname": "Justus",
+          "lastnameprefix": "de",
+          "lastname": "Visser",
+          "gender": "male",
+          "residence": ""
+        }
+      ]
+    }
+  ]
+}
