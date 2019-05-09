@@ -20,6 +20,8 @@ function receiveMessage(event) {
 ```
 Note to use only a domain (without trailing `/`) on the `event.origin` line.
 
+Use `?lang=en` in the iframe embed url to switch to English.
+
 Make sure your URL to embed from equals the `postMessage` URL in `App.svelte`, which now is `https://stemopeenvrouw.com/`.
 
 # Install
