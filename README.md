@@ -31,13 +31,13 @@ docker-compose up -d
 ```
 This will start `import-build-cron` which will connect to Google Sheets to fetch new data, a sheet ID and API Key are needed to.
 
-Note that list icons are loaded in `public/global.css` which will need a change on election time, together with the share text in `src/App.svelte` and also note we wrote only IE grid code for the first 16 items.
+Note that list icons are loaded in `static/global.css` which will need a change on election time, together with the share text in `src/App.svelte` and also note we wrote only IE grid code for the first 16 items.
 
 ## Keys
 
 Keys are inlined for the moment:
 
-`public/index.html`: Typekit key with Industry font
+`static/index.html`: Typekit key with Industry font
 
 `.google-sheets-id`: Google Sheet ID and Google API Key
 
@@ -56,14 +56,14 @@ And go to `http://localhost:3000/` (auto reloaded with new builds).
 
 `src/*` / Code: CC0
 
-`public/*.js` / [document-register-element](https://github.com/WebReflection/document-register-element/): ISC License
+`static/*.js` / [document-register-element](https://github.com/WebReflection/document-register-element/): ISC License
 ISC License
 
-`public/images/logo/*` / Political list/party logos: No license.
+`static/images/logo/*` / Political list/party logos: No license.
 Sources:
 Vector from Wikipedia or party site: 50PLUS, CDA, De Groenen, GROENLINKS, PvdA, PvdD and SP.
 Bitmap from party site: JEZUS LEEFT, Lijst15.
 Personally extracted from PDF from party website: ChristenUnie-SGP, DENK, D66 (and changed color), PVV.
 Personally traced: FvD (determined font to be Grandesign Neue Roman) and Volt.
 
-`public/images/*` / images: Copyright by [Stem op een Vrouw](https://stemopeenvrouw.com/).
+`static/images/*` / images: Copyright by [Stem op een Vrouw](https://stemopeenvrouw.com/).
