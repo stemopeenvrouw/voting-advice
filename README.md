@@ -63,9 +63,13 @@ ISC License
 
 `static/images/logo/*` / Political list/party logos: No license.
 Sources:
+
 Vector from Wikipedia or party site: 50PLUS, CDA, De Groenen, GROENLINKS, PvdA, PvdD and SP.
+
 Bitmap from party site: JEZUS LEEFT, Lijst15.
+
 Personally extracted from PDF from party website: ChristenUnie-SGP, DENK, D66 (and changed color), PVV.
+
 Personally traced: FvD (determined font to be Grandesign Neue Roman) and Volt.
 
 `static/images/*` / images: Copyright by [Stem op een Vrouw](https://stemopeenvrouw.com/).
