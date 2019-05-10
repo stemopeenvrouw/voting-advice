@@ -41,7 +41,7 @@ Keys are inlined for the moment:
 
 `static/index.html`: Typekit key with Industry font
 
-`.google-sheets-id`: Google Sheet ID and Google API Key
+`.google-sheets-id`: Google Sheet ID
 
 `.google-api-key`: Google API Key
 
