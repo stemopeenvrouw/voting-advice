@@ -32,9 +32,9 @@ function share(event) {
 }
 let pageHeight;
 $: {
-	if (pageHeight && window.top) {
+	if (pageHeight && window.parent != window) {
 		//console.log("Resize", pageHeight);
-		window.top.postMessage(pageHeight + 65, 'https://stemopeenvrouw.com/'); // 65 for sharing button
+		window.parent.postMessage(pageHeight + 65, config.targetOrigin); // 65 for sharing button
 	}
 }
 </script>
@@ -180,6 +180,12 @@ a.whatsapp {
 }
 .share a:hover {
 	transform: scale(1.4);
+}
+
+@media (min-width: 384px) {
+	.electiongrid {
+		padding: 0.15rem;
+	}
 }
 @media (min-width: 768px) {
 	.electiongrid {

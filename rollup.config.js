@@ -1,4 +1,5 @@
 import svelte from 'rollup-plugin-svelte';
+import replace from 'rollup-plugin-replace';
 import resolve from 'rollup-plugin-node-resolve';
 import json from 'rollup-plugin-json';
 import commonjs from 'rollup-plugin-commonjs';
@@ -22,6 +23,9 @@ export default {
 		file: 'build/votingadviseapp.js',
 	},
 	plugins: [
+		replace({
+			'config.targetOrigin': JSON.stringify(production ? 'https://stemopeenvrouw.com' : 'http://localhost:5000'),
+		}),
 		svelte({
 			dev: !production,
 			legacy: production,

@@ -6,6 +6,7 @@ $: total = male + female;
 $: maleDegree = Math.min(male / total * 360, 359.9);
 $: femaleDegree = Math.min(female / total * 360, 359.9);
 
+// Based on https://stackoverflow.com/a/18473154/589293 with added flip option
 function polarToCartesian(centerX, centerY, radius, angleInDegrees) {
   const angleInRadians = (angleInDegrees-90) * Math.PI / 180.0;
 

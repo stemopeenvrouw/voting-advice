@@ -22,7 +22,7 @@ Note to use only a domain (without trailing `/`) on the `event.origin` line.
 
 Use `?lang=en` in the iframe embed url to switch to English.
 
-Make sure your URL to embed from equals the `postMessage` URL in `App.svelte`, which now is `https://stemopeenvrouw.com/`.
+Make sure your URL to embed from equals the `config.targetOrigin` in `rollup.config.js`, which now is `https://stemopeenvrouw.com/` for production.
 
 # Install
 
@@ -50,7 +50,7 @@ Keys are inlined for the moment:
 docker-compose -f docker-compose-dev.yml up -d
 docker-compose -f docker-compose-dev.yml logs -f app
 ```
-And go to `http://localhost:3000/` (auto reloaded with new builds).
+And go to `http://localhost:5000/embedtest.html` (auto reloaded with new builds).
 
 # License
 
