@@ -18,11 +18,11 @@ function receiveMessage(event) {
 }
 </script>
 ```
-Note to use only a domain (without trailing `/`) on the `event.origin` line.
+Note that an origin (`event.origin` or `config.targetOrigin`) includes a schema (`http://` or `https://`) a domain name and optional port number, but no path or trailing `/`!.
+
+Make sure your URL to embed from equals the `config.targetOrigin` in `rollup.config.js`, which now is `https://stemopeenvrouw.com` for production.
 
 Use `?lang=en` in the iframe embed url to switch to English.
-
-Make sure your URL to embed from equals the `config.targetOrigin` in `rollup.config.js`, which now is `https://stemopeenvrouw.com/` for production.
 
 # Install
 
