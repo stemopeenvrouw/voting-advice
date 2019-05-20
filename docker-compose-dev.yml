@@ -2,7 +2,7 @@ services:
   app:
     command: sh -c "yarn && yarn dev"
     ports: ['5000:5000', '35729:35729']
-    image: mhart/alpine-node:11
+    image: node:alpine
     restart: always
     volumes:
       - '.:/app'

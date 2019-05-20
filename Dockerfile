@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:11
+FROM node:alpine
 LABEL maintainer="Open State Foundation <developers@openstate.eu>" \
 	  version="0.1.0" \
       description="Docker that fetches Google Sheet, processes the API output and builds a new version of the tool."
