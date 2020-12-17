@@ -1,15 +1,16 @@
 import svelte from 'rollup-plugin-svelte';
-import replace from 'rollup-plugin-replace';
-import resolve from 'rollup-plugin-node-resolve';
-import json from 'rollup-plugin-json';
-import commonjs from 'rollup-plugin-commonjs';
+import replace from '@rollup/plugin-replace';
+import resolve from '@rollup/plugin-node-resolve';
+import json from '@rollup/plugin-json';
+import commonjs from '@rollup/plugin-commonjs';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import copy from "rollup-plugin-copy";
-import babel from 'rollup-plugin-babel';
-import postcss from 'postcss';
-import postcssImport from 'postcss-import';
-import postcssPresetEnv from 'postcss-preset-env';
+import babel from '@rollup/plugin-babel';
+import postcss from 'rollup-plugin-postcss'
+// import postcss from 'postcss';
+// import postcssImport from 'postcss-import';
+// import postcssPresetEnv from 'postcss-preset-env';
 //import postcssSVG from 'postcss-svg';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -28,39 +29,46 @@ export default {
 		}),
 		svelte({
 			dev: !production,
-			legacy: production,
-			preprocess: {
-				style: ({ content, attributes }) => {
-					if (attributes.type !== 'text/postcss') {
-						return;
-					}
-					return new Promise((resolve, reject) => {
-						postcss([
-							postcssImport({
-								path: ["src"],
-							}),
-							postcssPresetEnv({
-								autoprefixer: { grid: true },
-							})
-						]).process(content, {
-							from: 'src',
-							map: {
-								inline: false,
-							},
-						}).then(result => {
-							resolve({
-							code: result.css.toString(),
-							map: result.map.toString(),
-							});
-						}).catch(err => reject(err));
-					});
-				},
-			},
+			emitCss: true,
+			//legacy: production,
+			// preprocess: {
+			// 	style: ({ content, attributes }) => {
+			// 		if (attributes.type !== 'text/postcss') {
+			// 			return;
+			// 		}
+			// 		return new Promise((resolve, reject) => {
+			// 			postcss([
+			// 				postcssImport({
+			// 					path: ["src"],
+			// 				}),
+			// 				postcssPresetEnv({
+			// 					autoprefixer: { grid: true },
+			// 				})
+			// 			]).process(content, {
+			// 				from: 'src',
+			// 				map: {
+			// 					inline: false,
+			// 				},
+			// 			}).then(result => {
+			// 				resolve({
+			// 				code: result.css.toString(),
+			// 				map: result.map.toString(),
+			// 				});
+			// 			}).catch(err => reject(err));
+			// 		});
+			// 	},
+			// },
 			css: css => {
 				css.write('build/votingadviseapp.css');
 			},
 		}),
-		resolve(),
+		postcss({
+      plugins: []
+    }),
+		resolve({
+			browser: true,
+			dedupe: ['svelte']
+		}),
 		json(),
 		commonjs(),
 		production && babel({
@@ -78,8 +86,8 @@ export default {
 			],
 		}),
 		copy({
-			targets: ['static/.'],
-			outputFolder: 'build'
+			targets: [{src: 'static/*', dest: 'build'}],
+			verbose: true
 		}),
 		!production && livereload('build'),
 		production && terser(),

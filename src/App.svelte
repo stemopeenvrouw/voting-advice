@@ -62,7 +62,7 @@ $: {
 	{/if}<button  role="button" class="main" on:mouseover|stopPropagation={()=>sharemore=!window.navigator.share} on:click={share}>{english ? "Share" : "Delen"}!</button></div></div>
 </div>
 
-<style type="text/postcss">
+<style>
 .electiongrid {
 	padding: 0.4rem 0;
 	display: grid;
