@@ -1,13 +1,14 @@
 # First get the first sheet [0] with the list identifiers in the first column [0],
 # names in the second [1], polling values [10], program urls [13].
 (
+	def round: . + 0.5 | floor;
 	.sheets[0].data[0].rowData |
 	map(
 		select(.values[0].userEnteredValue.numberValue? | tonumber?) | {
 			listid: .values[0].userEnteredValue.numberValue,
 			listname: .values[1].userEnteredValue.stringValue,
 			poll: (.values[10].userEnteredValue.numberValue? | round),
-			program: (.values[13].userEnteredValue.stringValue |
+			program: (.values[12].userEnteredValue.stringValue |
 				if (contains("http")?) then . else null end)
 		}
 	)

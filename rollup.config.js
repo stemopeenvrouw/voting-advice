@@ -7,7 +7,7 @@ import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import copy from "rollup-plugin-copy";
 import babel from '@rollup/plugin-babel';
-import postcss from 'rollup-plugin-postcss'
+import postcss from 'rollup-plugin-postcss';
 // import postcss from 'postcss';
 // import postcssImport from 'postcss-import';
 // import postcssPresetEnv from 'postcss-preset-env';
@@ -73,8 +73,9 @@ export default {
 		commonjs(),
 		production && babel({
 			extensions: ['.js', '.mjs', '.html', '.svelte'],
-			runtimeHelpers: true,
+			babelHelpers: 'runtime',
 			exclude: ['node_modules/@babel/**', 'node_modules/core-js/**'],
+			plugins: [['@babel/transform-runtime', { regenerator: false, useESModules: false }]],
 			presets: [
 				['@babel/preset-env', {
 					//targets: '> 0.25%, not op_mini all, not dead, IE 10-11',
