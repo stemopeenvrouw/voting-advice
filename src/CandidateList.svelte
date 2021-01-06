@@ -14,10 +14,13 @@
 
 <div class="next">
 	<button class="back" on:click aria-label="{english ? 'Back' : 'Terug'}">{english ? 'Back' : 'Terug'}</button><br>
-	{#if program}<a class="program" href="{program}" rel="noopener noreferer" target="_blank"><span class="small">{english ? 'Program (PDF NL)' : 'Programma (PDF)'}</span><span class="wide">{english ? 'Election Program (PDF NL)' : 'Verkiezingsprogramma (PDF)'}</span></a>{/if}
+	<div class="logo list_{listid}" in:fade></div>
+	<div class="listinfo">
+		<h3>{listname}</h3>
+		{#if program}<a class="program" href="{program}" rel="noopener noreferer" target="_blank"><span class="small">{english ? 'Program (PDF NL)' : 'Programma (PDF)'}</span><span class="wide">{english ? 'Election Program (PDF NL)' : 'Verkiezingsprogramma (PDF)'}</span></a>{/if}
+	</div>
+	<Pie male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
 </div>
-<Pie male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
-<div class="logo list_{listid}" in:fade></div>
 <ol>
 {#each candidates as candidate, i (listid + '-' + candidate.id)}
 	<li class:save={i < poll} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate {...candidate} /></li>
@@ -28,12 +31,16 @@
 .logo {
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-position: right center;
+	background-position: left center;
 	background-color: #ffffff;
 	height: 4rem;
 	width: 6rem;
-	float: right;
+	float: left;
 	display: inline-block;
+}
+.listinfo {
+	height: 4rem;
+	float: left;
 }
 .program .wide {
 	display: none;
@@ -50,13 +57,14 @@ ol {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
+	clear: both;
 }
 li.save + li:not(.save) {
 	border-top: 3px dashed #4e96a9;
 	padding-top: 0.5rem;
 }
 .next {
-	display: inline-block;
+	display: block;
 	height: 4rem;
 	vertical-align: top;
 	position: relative;
@@ -77,7 +85,8 @@ h3 {
 	margin: 0;
 	color: #4e96a9;/*#ee956a;*/
 	bottom: 0;
-	position: absolute;
+	margin-bottom: 0.9rem;
+	/*position: absolute;*/
 }
 .back {
 	display: inline-block;
