@@ -17,7 +17,12 @@
 	<div class="logo list_{listid}" in:fade></div>
 	<div class="listinfo">
 		<h3>{listname}</h3>
-		{#if program}<a class="program" href="{program}" rel="noopener noreferer" target="_blank"><span class="small">{english ? 'Program (PDF NL)' : 'Programma (PDF)'}</span><span class="wide">{english ? 'Election Program (PDF NL)' : 'Verkiezingsprogramma (PDF)'}</span></a>{/if}
+		{#if program}
+			<a class="program" href="{program}" rel="noopener noreferer" target="_blank">
+				<span class="small">{english ? 'Program (PDF NL)' : 'Programma (PDF)'}</span>
+				<span class="wide">{english ? 'Election Program (PDF NL)' : 'Verkiezingsprogramma (PDF)'}</span>
+			</a>
+		{/if}
 	</div>
 	<Pie male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
 </div>
