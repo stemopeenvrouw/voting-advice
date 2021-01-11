@@ -55,11 +55,11 @@
 
 <style>
 .candidate {
-	margin-bottom: 0.5rem;
+	margin-bottom: 0.3rem;
 	padding: 0.5rem 1rem 0.5rem 0;
 	cursor: pointer;
 	transition: all ease-in-out 0.3s;
-	font-size: 1.25rem;
+	font-size: 1.10rem;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -121,9 +121,9 @@ span.name:before {
 	color: #FFF;
 	background-color: #CCC;
 	display: inline-block;
-	width: 2.5rem;
-	line-height: 2.5rem;
-	height: 2.5rem;
+	width: 2.2rem;
+	line-height: 2.2rem;
+	height: 2.2rem;
 	text-align: center;
 	background: center center no-repeat url('images/person-gray.svg');
 	background-size: contain;
