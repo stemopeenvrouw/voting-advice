@@ -23,6 +23,7 @@ export default {
 		name: 'app',
 		file: 'build/votingadviseapp.js',
 	},
+	external: ['core-js'],
 	plugins: [
 		replace({
 			'config.targetOrigin': JSON.stringify(production ? 'https://stemopeenvrouw.com' : 'http://localhost:5000'),
@@ -75,7 +76,7 @@ export default {
 			extensions: ['.js', '.mjs', '.html', '.svelte'],
 			babelHelpers: 'runtime',
 			exclude: ['node_modules/@babel/**', 'node_modules/core-js/**'],
-			plugins: [['@babel/transform-runtime', { regenerator: false, useESModules: false }]],
+			plugins: [['@babel/transform-runtime', { regenerator: false, useESModules: true }]],
 			presets: [
 				['@babel/preset-env', {
 					//targets: '> 0.25%, not op_mini all, not dead, IE 10-11',
