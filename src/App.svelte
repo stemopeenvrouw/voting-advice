@@ -42,13 +42,12 @@ $: {
 <svelte:window on:popstate={popstate} />
 
 <div bind:offsetHeight={pageHeight} on:click={()=>sharemore=false}>
-	{#if !showlist }
-		<div class="electiongrid">
-		{#each lists as list, i (list.listid) }
-			<button class="listselect" on:click={() => show(list)}><div in:scale={{delay: 200 + i * 50}} class="logo list_{list.listid}" role="button" aria-label="{list.listname}"></div></button>
-		{/each}
-		</div>
-	{:else}
+	<div class="electiongrid">
+	{#each lists as list, i (list.listid) }
+		<button class="listselect" on:click={() => show(list)}><div in:scale={{delay: 200 + i * 50}} class="logo list_{list.listid}" role="button" aria-label="{list.listname}"></div></button>
+	{/each}
+	</div>
+	{#if showlist }
 		<div>
 			<CandidateList {...showlist} {english} on:click={() => show(false)}/>
 		</div>
