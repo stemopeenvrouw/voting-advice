@@ -1,3 +1,5 @@
+@include "https://use.typekit.net/idz4ack.css";
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -11,24 +13,24 @@ body {
 	border: none;
 	position: relative;
 	overflow: hidden;
-	font-family: Industry, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-family: "acumin-pro", Sans-serif;
 	max-width: 50rem;
 	margin: auto;
 }
 
 .list_1  { background-image: url('images/logo/vvd.svg'); }
-.list_2  { background-image: url('images/logo/cda.svg'); }
-.list_3  { background-image: url('images/logo/pvv.svg'); }
+.list_2  { background-image: url('images/logo/pvv.svg'); }
+.list_3  { background-image: url('images/logo/cda.svg'); }
 .list_4  { background-image: url('images/logo/d66.svg'); }
-.list_5  { background-image: url('images/logo/sp.svg'); }
-.list_6  { background-image: url('images/logo/pvda.svg'); }
-.list_7  { background-image: url('images/logo/christenunie-sgp.svg'); }
-.list_8  { background-image: url('images/logo/groenlinks-compact.svg'); }
+.list_5  { background-image: url('images/logo/groenlinks-compact.svg'); }
+.list_6  { background-image: url('images/logo/sp.svg'); }
+.list_7  { background-image: url('images/logo/pvda.svg'); }
+.list_8  { background-image: url('images/logo/christenunie.svg'); }
 .list_9  { background-image: url('images/logo/pvdd.svg'); }
 .list_10 { background-image: url('images/logo/50plus.svg'); }
-.list_11 { background-image: url('images/logo/jezusleeft.jpg'); }
+.list_11 { background-image: url('images/logo/png/sgp.png'); }
 .list_12 { background-image: url('images/logo/denk.svg'); }
-.list_13 { background-image: url('images/logo/degroenen.svg'); }
-.list_14 { background-image: url('images/logo/fvd.svg'); }
-.list_15 { background-image: url('images/logo/lijst15.jpg'); }
-.list_16 { background-image: url('images/logo/volt.svg'); }
+.list_13 { background-image: url('images/logo/fvd.svg'); }
+.list_14 { background-image: url('images/logo/png/bij1.png'); }
+.list_15 { background-image: url('images/logo/png/ja21.png'); }
+.list_16 { background-image: url('images/logo/png/code-oranje.png'); }
