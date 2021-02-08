@@ -190,7 +190,7 @@ a.whatsapp {
 @media (min-width: 768px) {
 	.electiongrid {
 		padding: 0.8rem;
-		grid-template-columns: repeat(auto-fill, minmax(7.56rem, 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(4.56rem, 1fr));
 		-ms-grid-columns: minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr);
 	}
 	.listselect {
