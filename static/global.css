@@ -1,5 +1,3 @@
-@include "https://use.typekit.net/idz4ack.css";
-
 html, body {
 	width: 100%;
 	height: 100%;
@@ -25,12 +23,12 @@ body {
 .list_5  { background-image: url('images/logo/groenlinks-compact.svg'); }
 .list_6  { background-image: url('images/logo/sp.svg'); }
 .list_7  { background-image: url('images/logo/pvda.svg'); }
-.list_8  { background-image: url('images/logo/christenunie.svg'); }
+.list_8  { background-image: url('images/logo/png/christenunie.png'); }
 .list_9  { background-image: url('images/logo/pvdd.svg'); }
 .list_10 { background-image: url('images/logo/50plus.svg'); }
 .list_11 { background-image: url('images/logo/png/sgp.png'); }
 .list_12 { background-image: url('images/logo/denk.svg'); }
 .list_13 { background-image: url('images/logo/fvd.svg'); }
-.list_14 { background-image: url('images/logo/png/bij1.png'); }
+.list_14 { background-image: url('images/logo/png/bij1.jpg'); }
 .list_15 { background-image: url('images/logo/png/ja21.png'); }
 .list_16 { background-image: url('images/logo/png/code-oranje.png'); }
