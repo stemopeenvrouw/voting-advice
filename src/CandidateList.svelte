@@ -1,7 +1,7 @@
 <script>
 	import { fade, fly } from 'svelte/transition';
 	import Candidate from './Candidate.svelte';
-	import Pie from './Pie.svelte';
+	import BarChart from './BarChart.svelte';
 
 	export let english = false;
 	export let listid;
@@ -24,7 +24,7 @@
 			</a>
 		{/if}
 	</div>
-	<Pie male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
+	<BarChart total={candidates ? candidates.length: 0} male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
 </div>
 <ol>
 {#each candidates as candidate, i (listid + '-' + candidate.id)}
