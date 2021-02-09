@@ -20,7 +20,6 @@
 <div class="candidate" class:expand class:male class:female class:filter={$filter} tabindex="{!male || !$filter ? 0 : -1}" role="button" on:click={() => {if (!male || !$filter) expand = !expand}}>
 	<div class="number">{candidateid}</div>
 	<span class="name">{name}</span>
-	<div class="checkmark" in:scale={{delay: 400 + femaleIndex * 150}}></div>
 	<div class="chevron"></div>
 </div>
 {#if expand}
@@ -55,15 +54,28 @@
 
 <style>
 .candidate {
+	color: #dce9ef;
+	background-color: #fff;
 	margin-bottom: 0.3rem;
 	padding: 0.5rem 1rem 0.5rem 0;
 	cursor: pointer;
 	transition: all ease-in-out 0.3s;
-	font-size: 1.10rem;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	position: relative;
+	font-family: "acumin-pro", sans-serif;
+	font-weight: 600;
+	font-size: 22px;
+	line-height: 20px;
+/*
+	display: inline-grid;
+	grid-template-columns: 33% 33% 33%;
+	width: 100%;*/
+}
+
+.female {
+	color: #000;
 }
 span.name:before {
 	content: '';
@@ -116,16 +128,11 @@ span.name:before {
 	line-height: 1.5rem;
 }
 .number {
-	font-size: 1rem;
-	font-weight: bold;
-	color: #FFF;
-	background-color: #CCC;
 	display: inline-block;
-	width: 2.2rem;
-	line-height: 2.2rem;
-	height: 2.2rem;
+	width: 1.8rem;
+	height: 1.8rem;
+	border-radius: 1.1rem;
 	text-align: center;
-	background: center center no-repeat url('images/person-gray.svg');
 	background-size: contain;
 	vertical-align: bottom;
 	/*vertical-align: middle;*/
@@ -133,26 +140,11 @@ span.name:before {
 	margin-right: 1rem;
 }
 .male .number {
-	background: transparent center center no-repeat url('images/person-gray-outline.svg');
 	/*color: #FFF;*/
-	color: #000;
 	background-size: contain;
 }
 .female .number {
-	background: transparent center center no-repeat url('images/person-gray.svg');
-	color: #000;
-	background-size: contain;
-}
-.checkmark {
-	position: absolute;
-	left: 1rem;
-	margin-top: 0.8rem;
-	/*right: 0.5rem;*/
-	height: 2rem;
-	width: 2rem;
-	display: inline-block;
- 	background-position: center right;
- 	background-repeat: no-repeat;
+	border: 1px solid #000;
 	background-size: contain;
 }
 .more {
