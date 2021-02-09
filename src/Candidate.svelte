@@ -31,9 +31,9 @@
 {#if expand}
 <div class="more" transition:slide>
 	{#if bio}
-		<a href="{bio}" target="_blank" rel="noopener noreferer" class="bio" role="button" aria-label="Bio">Bio</a>
+		<a href="{bio}" target="_blank" rel="noopener noreferer" class="bio" role="button" aria-label="Biografie">Biografie</a>
 	{:else}
-		<span class="bio" aria-label="Bio">Bio</span>
+		<span class="bio" aria-label="Bio">Biografie</span>
 	{/if}
 	{#if facebook}
 		<a href="{facebook}" target="_blank" rel="noopener noreferer" class="facebook" role="button" aria-label="Facebook">Facebook</a>
@@ -187,21 +187,24 @@ span.name:before {
  	background-repeat: no-repeat;
  	margin-left: 1rem;
 }
+.bio {
+	font-family: "acumin-pro-extra-condensed", Sans-serif;
+	font-weight: 800;
+	font-size: 22px;
+}
 span.bio {
 	width: 4rem !important;
 	text-align: left;
 	vertical-align: top;
 	line-height: 2rem;
 	color: #CCC;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3Cpath fill=%22%23CCC%22 d=%22M215.469 332.802l29.863 29.864L352 256 245.332 149.333l-29.863 29.865 55.469 55.469H64v42.666h205.864l-54.395 55.469zM405.334 64H106.666C83.198 64 64 83.198 64 106.666V192h42.666v-85.333h298.668v298.668H106.666V320H64v85.334C64 428.802 83.198 448 106.666 448h298.668C428.802 448 448 428.802 448 405.334V106.666C448 83.198 428.802 64 405.334 64z%22/%3E%3C/svg%3E");
 }
 a.bio {
 	width: 4rem !important;
 	text-align: left;
 	vertical-align: top;
 	line-height: 2rem;
-	color: #e94551;
-	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3Cpath fill=%22%23e94551%22 d=%22M215.469 332.802l29.863 29.864L352 256 245.332 149.333l-29.863 29.865 55.469 55.469H64v42.666h205.864l-54.395 55.469zM405.334 64H106.666C83.198 64 64 83.198 64 106.666V192h42.666v-85.333h298.668v298.668H106.666V320H64v85.334C64 428.802 83.198 448 106.666 448h298.668C428.802 448 448 428.802 448 405.334V106.666C448 83.198 428.802 64 405.334 64z%22/%3E%3C/svg%3E");
+	color: #5098AB;
 }
 span.facebook {
 	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3Cpath fill=%22%23CCC%22 d=%22M426.8 64H85.2C73.5 64 64 73.5 64 85.2v341.6c0 11.7 9.5 21.2 21.2 21.2H256V296h-45.9v-56H256v-41.4c0-49.6 34.4-76.6 78.7-76.6 21.2 0 44 1.6 49.3 2.3v51.8h-35.3c-24.1 0-28.7 11.4-28.7 28.2V240h57.4l-7.5 56H320v152h106.8c11.7 0 21.2-9.5 21.2-21.2V85.2c0-11.7-9.5-21.2-21.2-21.2z%22/%3E%3C/svg%3E");

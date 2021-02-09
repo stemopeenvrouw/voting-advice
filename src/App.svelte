@@ -42,6 +42,18 @@ $: {
 <svelte:window on:popstate={popstate} />
 
 <div bind:offsetHeight={pageHeight} on:click={()=>sharemore=false}>
+
+	<div class="explanation explanation1">
+		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+			<defs>
+				<style>.cls-1{fill:#fff;}.cls-2{font-size:28px;fill:#f7794d;font-family:AcuminPro-Bold, Acumin Pro;font-weight:700;}</style>
+			</defs>
+			<title>Asset 8</title>
+			<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M36,18A18,18,0,1,1,18,0,18,18,0,0,1,36,18"></path><text class="cls-2" transform="translate(12.75 27.78)">1</text></g></g>
+		</svg>
+		<span class="elementor-icon-list-text">Kies een partij</span>
+	</div>
+
 	<div class="electiongrid">
 	{#each lists as list, i (list.listid) }
 		<button class="listselect" on:click={() => show(list)}><div in:scale={{delay: 200 + i * 50}} class="logo list_{list.listid}" role="button" aria-label="{list.listname}"></div></button>
@@ -112,6 +124,11 @@ $: {
 	bottom: 0;
 	right: 0;
 	padding: 1.4rem;
+}
+.explanation svg {
+	width: 26px;
+	height: 26px;
+	fill: #fff;
 }
 .share > div {
 	transition: all ease-in-out 0.3s;
