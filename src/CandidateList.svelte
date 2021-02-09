@@ -10,6 +10,7 @@
 	$: candidates.filter(c => c.gender == 'v').map((c,i) => c.femaleIndex = i);
 	export let program;
 	export let poll;
+	var real_poll = (poll > 0) ? poll : 2;
 </script>
 
 <div class="next" data-poll="{poll}">
@@ -26,7 +27,7 @@
 </div>
 <ol>
 {#each candidates as candidate, i (listid + '-' + candidate.id)}
-	<li class:save={i < ((poll > 0) ? poll : 1)} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate {...candidate} /></li>
+	<li class:save={i < real_poll} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate poll={real_poll} {...candidate} /></li>
 {/each}
 </ol>
 

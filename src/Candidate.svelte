@@ -2,6 +2,7 @@
 	import { filter } from './stores.js';
 	import { scale, slide } from 'svelte/transition';
 
+	export let poll;
 	export let candidateid;
 	export let name;
 	export let gender;
@@ -17,10 +18,14 @@
 
 </script>
 
-<div class="candidate" class:expand class:male class:female class:filter={$filter} tabindex="{!male || !$filter ? 0 : -1}" role="button" on:click={() => {if (!male || !$filter) expand = !expand}}>
+<div class="candidate" data-candidateid={candidateid} data-poll={poll} class:expand class:male class:female class:filter={$filter} tabindex="{!male || !$filter ? 0 : -1}" role="button" on:click={() => {if (!male || !$filter) expand = !expand}}>
 	<div class="number">{candidateid}</div>
 	<span class="name">{name}</span>
-	<span class="tip"><span>tip</span></span>
+	<span class="tip">
+	{#if candidateid <= poll}
+	<span>tip</span>
+	{/if}
+	</span>
 	<div class="chevron"></div>
 </div>
 {#if expand}
