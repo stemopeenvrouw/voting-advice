@@ -20,6 +20,7 @@
 <div class="candidate" class:expand class:male class:female class:filter={$filter} tabindex="{!male || !$filter ? 0 : -1}" role="button" on:click={() => {if (!male || !$filter) expand = !expand}}>
 	<div class="number">{candidateid}</div>
 	<span class="name">{name}</span>
+	<span class="tip"><span>tip</span></span>
 	<div class="chevron"></div>
 </div>
 {#if expand}
@@ -69,7 +70,7 @@
 	font-size: 22px;
 	line-height: 20px;
 	display: inline-grid;
-	grid-template-columns: 30px auto 30px;
+	grid-template-columns: 30px min-content auto 30px;
 	grid-gap: 1rem;
 	width: 100%;
 }
@@ -85,6 +86,22 @@ span.name:before {
 	left: 0;
 	top: 0;
 	background: linear-gradient(90deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1));
+}
+.tip {
+	line-height: 28px;
+	display: none;
+  align-items: center;
+	font-size: 22px;
+	line-height: 22px;
+}
+.female .tip {
+	display: flex;
+}
+.tip span {
+	color: #fff;
+	background: #E88D69;
+	border-radius: 5px;
+	padding: 3px;
 }
 .name {
 	line-height: 28px;
