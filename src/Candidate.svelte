@@ -92,7 +92,7 @@ span.name:before {
   align-items: center;
 }
 .chevron {
-	display: flex;
+	display: none;
   align-items: center;
 	width: 26px;
 	height: 26px;
@@ -139,7 +139,9 @@ span.name:before {
 	background: #5098AB;
 	border: 1px solid transparent;
 }
-
+.female .chevron {
+	display: flex;
+}
 .male .number {
 	/*color: #FFF;*/
 	border: 1px solid transparent;
