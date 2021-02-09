@@ -19,8 +19,7 @@
 		{#if program}
 			<a class="program" href="{program}" rel="noopener noreferer" target="_blank">
 				<span class="small">{english ? 'Program' : 'Programma'}</span>
-				<span class="wide">{english ? 'View the Election Program' : 'Bekijk verkiezingsprogramma'}</span>
-				<div class="chevron"></div>
+				<span class="wide">{english ? 'View the Election Program' : 'Bekijk verkiezingsprogramma'} <div class="chevron"></div></span>
 			</a>
 		{/if}
 	</div>
@@ -44,8 +43,11 @@
 }
 .listinfo {
 	height: 4rem;
-	float: right;
+ display: flex;
+ align-items: center;
+ justify-content: right;
 }
+
 .program .wide {
 	display: none;
 }
@@ -68,10 +70,16 @@ li.save + li:not(.save) {
 	padding-top: 0.5rem;
 }
 .next {
-	display: block;
 	height: 4rem;
 	vertical-align: top;
 	position: relative;
+	display: inline-grid;
+	grid-template-columns: 33% 33% 33%;
+	width: 100%;
+}
+.next > div:nth-child(1) {
+ display: flex;
+ align-items: center;
 }
 a.program {
 	display: inline-block;
@@ -81,6 +89,9 @@ a.program {
 	text-decoration: none;
 	color: #4e96a9;
 	font-family: "acumin-pro-extra-condensed", Sans-serif;
+	font-size: 21px;
+	line-height: 21px;
+	text-transform: uppercase;
 }
 .chevron {
 	position: absolute;

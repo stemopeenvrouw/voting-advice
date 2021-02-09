@@ -14,10 +14,16 @@
 </div>
 
 <style>
+.barchart {
+ display: flex;
+ align-items: center;
+}
 .barchart span {
-  line-height: 19px;
+  line-height: 21px;
   display: inline-block;
   height: 19px;
+  font-family: "acumin-pro-extra-condensed", Sans-serif;
+  font-weight: 800;
 }
 .bg {
   width: 150px;
@@ -25,5 +31,8 @@
 }
 .line {
   background: #5098AB;
+}
+.percentage {
+  font-size: 21px;
 }
 </style>
