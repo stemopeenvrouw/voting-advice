@@ -76,6 +76,7 @@ li.save + li:not(.save) {
 	display: inline-grid;
 	grid-template-columns: 33% 33% 33%;
 	width: 100%;
+	margin-bottom: 2rem;
 }
 .next > div:nth-child(1) {
  display: flex;

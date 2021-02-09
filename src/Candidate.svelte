@@ -70,6 +70,7 @@
 	line-height: 20px;
 	display: inline-grid;
 	grid-template-columns: 30px auto 30px;
+	grid-gap: 1rem;
 	width: 100%;
 }
 
