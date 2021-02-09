@@ -12,7 +12,7 @@
 	export let poll;
 </script>
 
-<div class="next">
+<div class="next" data-poll="{poll}">
 	<div class="logo list_{listid}" in:fade></div>
 	<BarChart english={english} total={candidates ? candidates.length: 0} male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
 	<div class="listinfo">
@@ -26,7 +26,7 @@
 </div>
 <ol>
 {#each candidates as candidate, i (listid + '-' + candidate.id)}
-	<li class:save={i < poll} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate {...candidate} /></li>
+	<li class:save={i < ((poll > 0) ? poll : 1)} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate {...candidate} /></li>
 {/each}
 </ol>
 
@@ -66,7 +66,7 @@ ol {
 	clear: both;
 }
 li.save + li:not(.save) {
-	border-top: 3px dashed #4e96a9;
+	border-top: 3px dashed #EC4752;
 	padding-top: 0.5rem;
 }
 .next {
