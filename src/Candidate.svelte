@@ -86,6 +86,9 @@ span.name:before {
 	top: 0;
 	background: linear-gradient(90deg, rgba(255,255,255,0) 60%, rgba(255,255,255,1));
 }
+.name {
+	line-height: 28px;
+}
 .chevron {
 	position: absolute;
 	right: 0;
@@ -97,6 +100,11 @@ span.name:before {
 	background-size: 2rem;
 	z-index: 2;
 }
+
+.candidate:hover {
+	color: #5098AB;
+}
+
 .candidate:hover > .chevron {
 	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000%22 d=%22M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z%22/%3E%3C/svg%3E");
 
@@ -109,38 +117,30 @@ span.name:before {
 	/* chevron-up */
 	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000%22 d=%22M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z%22/%3E%3C/svg%3E");
 }
-.candidate.filter.male {
-	font-size: 1.1rem;
-	color: #CCC;
-	cursor: default;
-}
-.candidate.filter.male > .chevron {
-	background-image: none;
-}
-.candidate.filter.male > .number {
-	background: transparent center center no-repeat url('images/person-gray-outline.svg');
-	background-size: contain;
-	color: #CCC;
-	font-weight: normal;
-	font-size: 0.6rem;
-	width: 2.5rem;
-	height: 1.5rem;
-	line-height: 1.5rem;
-}
 .number {
 	display: inline-block;
 	width: 1.8rem;
 	height: 1.8rem;
-	border-radius: 1.1rem;
 	text-align: center;
 	background-size: contain;
 	vertical-align: bottom;
 	/*vertical-align: middle;*/
 	transition: all ease-in-out 0.3s;
 	margin-right: 1rem;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	border: 1px solid transparent;
 }
+.candidate:hover > .number {
+	color: #fff;
+	background: #5098AB;
+	border: 1px solid transparent;
+}
+
 .male .number {
 	/*color: #FFF;*/
+	border: 1px solid transparent;
 	background-size: contain;
 }
 .female .number {
