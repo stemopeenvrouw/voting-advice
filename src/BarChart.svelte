@@ -3,6 +3,7 @@
 	export let male;
 	export let female;
   export let total;
+  export let english = false;
 
 </script>
 
@@ -10,7 +11,13 @@
   <span class="bg">
     <span class="line" style="width: {Math.round(female*100/total)}%;"> </span>
   </span>
-  <span class="percentage" in:fade={{delay: 400}}>{Math.round(female*100/total)}% vrouwen</span>
+  <span class="percentage" in:fade={{delay: 400}}>{Math.round(female*100/total)}%
+  {#if !english}
+    vrouwen
+  {:else}
+    women
+  {/if}
+  </span>
 </div>
 
 <style>
@@ -21,7 +28,7 @@
 .barchart span {
   line-height: 21px;
   display: inline-block;
-  height: 19px;
+  height: 21px;
   font-family: "acumin-pro-extra-condensed", Sans-serif;
   font-weight: 800;
 }
@@ -34,5 +41,6 @@
 }
 .percentage {
   font-size: 21px;
+  margin-left: 1rem;
 }
 </style>

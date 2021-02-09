@@ -14,7 +14,7 @@
 
 <div class="next">
 	<div class="logo list_{listid}" in:fade></div>
-	<BarChart total={candidates ? candidates.length: 0} male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
+	<BarChart english={english} total={candidates ? candidates.length: 0} male={candidates.filter(c => c.gender == 'm').length} female={candidates.filter(c => c.gender == 'v').length} />
 	<div class="listinfo">
 		{#if program}
 			<a class="program" href="{program}" rel="noopener noreferer" target="_blank">
@@ -104,7 +104,7 @@ a.program {
 	background-size: 2rem;
 	z-index: 2;
 }
-.program:hover > .chevron {
+.program span:hover > .chevron {
 	background-image: url("data:image/svg+xml,%3Csvg xmlns=%22http%3A//www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22%3E%3Cpath fill=%22%23000%22 d=%22M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z%22/%3E%3C/svg%3E");
 
 }
