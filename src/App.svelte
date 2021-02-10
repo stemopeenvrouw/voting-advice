@@ -79,7 +79,7 @@ gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat
 gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.</p>
 			{:else}
 			<span>Vote for a woman, lower on the list than the poll (red striped line) indicates</span>
-			<p>Ife candidate directly ave the line is also a woman? Then she can us yo vote too. No blue stripes line? That could either mean that this party was not polled, or that it was polled on zero seats. Do not let this lead your decisionmaking; polls are never fully correct.</p>
+			<p>If a candidate directly ave the line is also a woman? Then she can us yo vote too. No blue stripes line? That could either mean that this party was not polled, or that it was polled on zero seats. Do not let this lead your decisionmaking; polls are never fully correct.</p>
 			{/if}
 		</div>
 		<div>
