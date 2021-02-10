@@ -5,7 +5,6 @@ import CandidateList from './CandidateList.svelte';
 export let lists;
 export let english = false;
 let sharemore = false;
-
 let showlist = false;
 function show(list) {
 	showlist = list;
@@ -62,7 +61,7 @@ $: {
 
 	<div class="electiongrid">
 	{#each lists as list, i (list.listid) }
-		<button data-poll={list.poll} class="listselect" on:click={() => show(list)}><div in:scale={{delay: 200 + i * 50}} class="logo list_{list.listid}" role="button" aria-label="{list.listname}"></div></button>
+		<button data-poll={list.poll} class="listselect" class:selected={showlist ? showlist.listid==(i+1) : false} on:click={() => show(list)}><div in:scale={{delay: 200 + i * 50}} class="logo list_{list.listid}" role="button" aria-label="{list.listname}"></div></button>
 	{/each}
 	</div>
 	{#if showlist }
@@ -143,6 +142,8 @@ gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit ge
 }
 .listselect:hover {
 	transform: scale(1.4);
+}.selected {
+	border: 1px solid #5098AB;
 }
 .logo {
 	height: 100%;
