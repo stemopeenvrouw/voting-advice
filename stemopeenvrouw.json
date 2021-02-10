@@ -2554,7 +2554,410 @@
   {
     "listid": 5,
     "poll": 13,
-    "candidates": null
+    "listname": "Groenlinks",
+    "program": "https://groenlinks.nl/verkiezingsprogramma",
+    "candidates": [
+      {
+        "candidateid": 1,
+        "name": "Jesse Klaver",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 2,
+        "name": "Corinne Ellemeet",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/corinne-ellemeet",
+        "instagram": null,
+        "linkedin": null,
+        "twitter": "https://twitter.com/CorinneEllemeet",
+        "facebook": "https://www.facebook.com/profile.php?id=100011906441068"
+      },
+      {
+        "candidateid": 3,
+        "name": "Tom van der Lee",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 4,
+        "name": "Laura Bromet",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/laura-bromet",
+        "instagram": null,
+        "linkedin": null,
+        "twitter": "https://twitter.com/LauraBromet",
+        "facebook": null
+      },
+      {
+        "candidateid": 5,
+        "name": "Senna Maatoug",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/senna-maatoug",
+        "instagram": "https://www.instagram.com/senna_maatoug/",
+        "linkedin": "https://www.linkedin.com/in/senna-maatoug-36851882/",
+        "twitter": "https://twitter.com/SennaMaatoug",
+        "facebook": null
+      },
+      {
+        "candidateid": 6,
+        "name": "Bart Snels",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 7,
+        "name": "Suzanne Kroger",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/suzanne-kr%C3%B6ger",
+        "instagram": "https://instagram.com/suzannekroger_gl",
+        "linkedin": "https://www.linkedin.com/in/suzannekroger/",
+        "twitter": "https://twitter.com/Suzanne_GL",
+        "facebook": "https://www.facebook.com/suzannegroenlinks"
+      },
+      {
+        "candidateid": 8,
+        "name": "Paul Smeulders",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 9,
+        "name": "Kauthar Bouchalikht",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/kauthar-bouchallikht",
+        "instagram": "https://www.instagram.com/kauthar_bouchallikht/",
+        "linkedin": "https://www.linkedin.com/in/kauthar-bouchallikht/",
+        "twitter": "https://twitter.com/Kauthar_",
+        "facebook": "https://www.facebook.com/kauthar.bouchallikht"
+      },
+      {
+        "candidateid": 10,
+        "name": "Lisa Westerveld",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/lisa-westerveld",
+        "instagram": "https://www.instagram.com/lisa_westerveld/",
+        "linkedin": "https://www.linkedin.com/in/lisawesterveld/",
+        "twitter": "https://twitter.com/Lisawesterveld",
+        "facebook": "https://www.facebook.com/lisa.westerveld"
+      },
+      {
+        "candidateid": 11,
+        "name": "April Ranshuijsen",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/april-ranshuijsen",
+        "instagram": "https://www.instagram.com/aprilranshuijsen/",
+        "linkedin": "https://www.linkedin.com/in/aprilranshuijsen/",
+        "twitter": "https://twitter.com/AprilRanshuysen",
+        "facebook": "https://www.facebook.com/aprilranshuijsen"
+      },
+      {
+        "candidateid": 12,
+        "name": "Niels van den Berge",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 13,
+        "name": "Andrew Harijgens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 14,
+        "name": "Laura Vissenberg",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/laura-vissenberg",
+        "instagram": "https://www.instagram.com/lauravissenberg/",
+        "linkedin": "https://www.linkedin.com/in/laura-vissenberg-7624113b/",
+        "twitter": "https://www.twitter.com/lauravissenberg",
+        "facebook": null
+      },
+      {
+        "candidateid": 15,
+        "name": "Geert Gabriels",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 16,
+        "name": "Danielle Hirsch",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/danielle-hirsch",
+        "instagram": "https://www.instagram.com/dhirsch68/",
+        "linkedin": "https://www.linkedin.com/in/danielle-h-hirsch/",
+        "twitter": "https://twitter.com/Danielle_H_BE",
+        "facebook": null
+      },
+      {
+        "candidateid": 17,
+        "name": "Nevin Ozutok",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/Nevin-Ozutok",
+        "instagram": "https://www.instagram.com/nevin_ozutok/",
+        "linkedin": "https://www.linkedin.com/in/nozutok/",
+        "twitter": "https://twitter.com/NevinOzutok",
+        "facebook": "https://www.facebook.com/nevin.ozutok"
+      },
+      {
+        "candidateid": 18,
+        "name": "Stephanie Bennett",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/stephanie-bennett",
+        "instagram": "https://www.instagram.com/stephaniebennettgl/",
+        "linkedin": "https://www.linkedin.com/in/stephanie-bennett-9566871b/",
+        "twitter": "https://twitter.com/SBennettgl",
+        "facebook": "https://www.facebook.com/stephanie.bennett.1460"
+      },
+      {
+        "candidateid": 19,
+        "name": "Noortje Thijssen",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/noortje-thijssen",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/noortje-thijssen/",
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 20,
+        "name": "Jeroen Postma",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 21,
+        "name": "Simion Blom",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 22,
+        "name": "Tom van den Nieuwenhuijzen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 23,
+        "name": "Raja Alouani",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/raja-alouani",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/raja-alouani-35592719/",
+        "twitter": null,
+        "facebook": "https://www.facebook.com/raja.alouani.3"
+      },
+      {
+        "candidateid": 24,
+        "name": "Serpil Ates",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/serpil-ates",
+        "instagram": "https://www.instagram.com/serpil_ates_groenlinks",
+        "linkedin": "https://www.linkedin.com/in/serpil-ates-485aa3a2/",
+        "twitter": "https://twitter.com/Serpil__Ates",
+        "facebook": "https://www.facebook.com/serpil.seteryan/"
+      },
+      {
+        "candidateid": 25,
+        "name": "Hagar Roijackers",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/hagar-roijackers",
+        "instagram": "https://www.instagram.com/hagar.roijackers",
+        "linkedin": "https://www.linkedin.com/in/hagar-roijackers-9b936712/",
+        "twitter": "https://www.twitter.com/_Hagar",
+        "facebook": "https://www.facebook.com/hagar.roijackers"
+      },
+      {
+        "candidateid": 26,
+        "name": "Mark Brakel",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 27,
+        "name": "Dorrit de Jong",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/dorrit-de-jong",
+        "instagram": "https://www.instagram.com/dorritdejong",
+        "linkedin": "https://www.linkedin.com/in/dorrit-de-jong-146311a/",
+        "twitter": "https://www.twitter.com/DorritDeJong",
+        "facebook": "https://www.facebook.com/dorrit.dejong/"
+      },
+      {
+        "candidateid": 28,
+        "name": "Samir Toub",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 29,
+        "name": "Astrid Janssen",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/astrid-janssen",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/astridjanssen/",
+        "twitter": "https://www.twitter.com/astridpj",
+        "facebook": null
+      },
+      {
+        "candidateid": 30,
+        "name": "Imran Hyder",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 31,
+        "name": "Hilde Niezen",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/hilde-niezen",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/astridjanssen/",
+        "twitter": "https://www.twitter.com/hildeniezen",
+        "facebook": null
+      },
+      {
+        "candidateid": 32,
+        "name": "Pepijn Zwanenberg",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 33,
+        "name": "Romano Boshove",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 34,
+        "name": "Milka Yemane",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/milka-yemane",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/milka-yemane-58b80698/",
+        "twitter": null,
+        "facebook": "https://www.facebook.com/milka.yemane"
+      },
+      {
+        "candidateid": 35,
+        "name": "Martine Doppen",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/martine-doppen",
+        "instagram": "https://www.instagram.com/martinedoppen/",
+        "linkedin": "https://www.linkedin.com/in/martine-doppen-2a413672/",
+        "twitter": "https://twitter.com/MartineDoppen",
+        "facebook": "https://www.facebook.com/martine.doppen"
+      },
+      {
+        "candidateid": 36,
+        "name": "Melody Deldjou Fard",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/melody-deldjou-fard",
+        "instagram": "https://www.instagram.com/melodydeldjoufard",
+        "linkedin": "https://www.linkedin.com/in/melody-deldjou-fard-43936574/",
+        "twitter": "https://www.twitter.com/MelodyDeldjou",
+        "facebook": "https://www.facebook.com/profile.php?id=100013393697694"
+      },
+      {
+        "candidateid": 37,
+        "name": "Colin Kok",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 38,
+        "name": "Jawina Elahi",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/jaswina-elahi",
+        "instagram": "https://www.instagram.com/jaswina_indepolitiek",
+        "linkedin": null,
+        "twitter": null,
+        "facebook": "https://www.facebook.com/jaswina.elahi/"
+      },
+      {
+        "candidateid": 39,
+        "name": "Tara Scally",
+        "gender": "v",
+        "bio": "https://groenlinks.nl/kandidatenlijst/tara-scally",
+        "instagram": "https://www.instagram.com/scallytara",
+        "linkedin": "https://www.linkedin.com/in/tarascally/",
+        "twitter": "https://www.twitter.com/scallytara",
+        "facebook": null
+      },
+      {
+        "candidateid": 40,
+        "name": "Mohamed Amessas",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      }
+    ]
   },
   {
     "listid": 6,
@@ -5555,7 +5958,500 @@
   {
     "listid": 13,
     "poll": 3,
-    "candidates": null
+    "listname": "FvD",
+    "program": "https://www.fvd.nl/standpunten",
+    "candidates": [
+      {
+        "candidateid": 1,
+        "name": "Thierry Baudet",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 2,
+        "name": "Wybren van Haga",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 3,
+        "name": "Olaf Ephraim",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 4,
+        "name": "Hans Smolders",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 5,
+        "name": "Simone Kerseboom",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/simone_kerseboom/",
+        "linkedin": "https://www.linkedin.com/in/noveltranslations/",
+        "twitter": "https://twitter.com/SimoneKerseboom?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        "facebook": null
+      },
+      {
+        "candidateid": 6,
+        "name": "Gideon van Meijeren",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 7,
+        "name": "Frederik Jansen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 8,
+        "name": "Pepijn van Houwelingen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 9,
+        "name": "Ralf Dekker",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 10,
+        "name": "Joyce Vastenhouw",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/joycevastenhouw/",
+        "linkedin": "https://www.linkedin.com/in/joycevastenhouw/",
+        "twitter": "https://twitter.com/JoyceVastenhouw",
+        "facebook": null
+      },
+      {
+        "candidateid": 11,
+        "name": "Arjan de Kok",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 12,
+        "name": "Dennis Boom",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 13,
+        "name": "Joris van den Oetelaar",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 14,
+        "name": "Anton de Lange",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 15,
+        "name": "Samuel Jong",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 16,
+        "name": "Silvio de Groot",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 17,
+        "name": "Andreas Bakir",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 18,
+        "name": "Daniël Osseweijer",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 19,
+        "name": "Carola Dieudonné",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/carola-dieudonné-73634b31/",
+        "twitter": "https://twitter.com/caroladieudonne",
+        "facebook": null
+      },
+      {
+        "candidateid": 20,
+        "name": "Martin Bos",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 21,
+        "name": "Erwin Jousma",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 22,
+        "name": "Nynke Koopmans",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 23,
+        "name": "Yanick Chevalier",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 24,
+        "name": "Robin de Keijzer",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/robin-de-keijzer-342393112/",
+        "twitter": "https://twitter.com/Robin_deKeijzer",
+        "facebook": null
+      },
+      {
+        "candidateid": 25,
+        "name": "Lex Cornelissen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 26,
+        "name": "Bart van der Werf",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 27,
+        "name": "Sam van der Pol",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 28,
+        "name": "Tom Rotmans",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 29,
+        "name": "Hendrikus Velzing",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 30,
+        "name": "Melina van der Velden",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 31,
+        "name": "Ab Kuijer",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 32,
+        "name": "Harm van Essen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 33,
+        "name": "Fred Walravens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 34,
+        "name": "Carlos Klazinga",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 35,
+        "name": "Ruby Driessen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 36,
+        "name": "Wouter Verbraak",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 37,
+        "name": "Floris van der Knoop",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 38,
+        "name": "Johnny Bos",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 39,
+        "name": "Geert Jeelof",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 40,
+        "name": "Johan Talsma",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 41,
+        "name": "Jasper van der Voort",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 42,
+        "name": "Johan Dessing",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 43,
+        "name": "Pieter Mink",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 44,
+        "name": "Peter Verstegen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 45,
+        "name": "Gert Jan Mulder",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 46,
+        "name": "Hans Hugenholtz",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 47,
+        "name": "Robert Jan Staartjes",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 48,
+        "name": "Anton van Schijndel",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 49,
+        "name": "Paul Frentrop",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      }
+    ]
   },
   {
     "listid": 14,
@@ -5748,7 +6644,310 @@
   {
     "listid": 15,
     "poll": 0,
-    "candidates": null
+    "listname": "JA21",
+    "program": "https://ja21.nl/standpunten/",
+    "candidates": [
+      {
+        "candidateid": 1,
+        "name": "Joost Eerdmans",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 2,
+        "name": "Nicki Pouw-Verweij",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/nickiverweij/",
+        "linkedin": "https://www.linkedin.com/in/nicki-pouw-verweij-9b93ab7a/?originalSubdomain=nl",
+        "twitter": "https://twitter.com/nickiverweij",
+        "facebook": "https://www.facebook.com/nickipouwverweij/"
+      },
+      {
+        "candidateid": 3,
+        "name": "Derk Jan Eppink",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 4,
+        "name": "Maarten Goudzwaard",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 5,
+        "name": "Stefan Berlijn",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 6,
+        "name": "Leon Baten",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 7,
+        "name": "Jan Cees Vogelaar",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 8,
+        "name": "Yael Potjer",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 9,
+        "name": "Michiel Hoogeveen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 10,
+        "name": "Maryam Soltani",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/maryam-soltani-a08618113/?originalSubdomain=nl",
+        "twitter": "https://twitter.com/Soltani02889124",
+        "facebook": "https://www.facebook.com/maryam.soltani.35977"
+      },
+      {
+        "candidateid": 11,
+        "name": "Willem Rutjens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 12,
+        "name": "Esther van Schaik",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/evanschaik/detail/photo/",
+        "twitter": "https://twitter.com/esthetisch",
+        "facebook": null
+      },
+      {
+        "candidateid": 13,
+        "name": "Matthijs Sandmann",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 14,
+        "name": "Thomas Blinde",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 15,
+        "name": "Eelco van Hoecke",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 16,
+        "name": "Mieke Andriese",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 17,
+        "name": " Ruud Burlet",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 18,
+        "name": "Johan Almekinders",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 19,
+        "name": "Gert-Jan Ransijn",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 20,
+        "name": "Wouter Weyers",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 21,
+        "name": "Swier Copinga",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 22,
+        "name": "Elly Mulder",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 23,
+        "name": "Ronald Zoutendijk",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 24,
+        "name": "Simon Ceulemans",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 25,
+        "name": "Loek van Wely",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 26,
+        "name": "Roy Blijlevens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 27,
+        "name": "Xander Eversdijk",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 28,
+        "name": "Rob Roos",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 29,
+        "name": "Ronald Sörensen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 30,
+        "name": " Annabel Nanninga",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/ananninga/?hl=nl",
+        "linkedin": "https://www.linkedin.com/in/annabel-nanninga-228738158/?originalSubdomain=nl",
+        "twitter": "https://twitter.com/ANanninga?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+        "facebook": null
+      }
+    ]
   },
   {
     "listid": 16,
@@ -6875,7 +8074,320 @@
   {
     "listid": 20,
     "poll": 0,
-    "candidates": null
+    "listname": "LP (Libertaire Partij)",
+    "program": "https://stemlp.nl/standpunten/",
+    "candidates": [
+      {
+        "candidateid": 1,
+        "name": "Robert Valentine",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 2,
+        "name": "Jeroen Weber",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 3,
+        "name": "Roos Schoenmakers",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/r_schoenmakers_/",
+        "linkedin": "https://www.linkedin.com/in/roos-schoenmakers-343ab0192/?originalSubdomain=nl",
+        "twitter": "https://twitter.com/R_Schoenmakers_",
+        "facebook": null
+      },
+      {
+        "candidateid": 4,
+        "name": "Arnoud Kuipers",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 5,
+        "name": "Wijnand Groenen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 6,
+        "name": "Nathan Bouscher",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 7,
+        "name": "Willem Buising",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 8,
+        "name": "Yu Mei O",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/yu_o_mi/?hl=nl",
+        "linkedin": "https://www.linkedin.com/in/yumeio/?originalSubdomain=nl",
+        "twitter": " ",
+        "facebook": null
+      },
+      {
+        "candidateid": 9,
+        "name": "Saskia van Balen",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/svanbalen/",
+        "linkedin": "https://www.linkedin.com/in/saskia-van-balen-6934329a/",
+        "twitter": "https://twitter.com/saskiavanbalen",
+        "facebook": null
+      },
+      {
+        "candidateid": 10,
+        "name": "Marco Nijweide",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 11,
+        "name": " Willem Cornax",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 12,
+        "name": "Pallieter Koopmans",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 13,
+        "name": " Peter Hartkamp",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 14,
+        "name": "Romy de Man",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/romy-de-man-a613bb158/?originalSubdomain=nl",
+        "twitter": " ",
+        "facebook": null
+      },
+      {
+        "candidateid": 15,
+        "name": "Nicki de Haaij",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 16,
+        "name": "Lola de Grunt",
+        "gender": "v",
+        "bio": null,
+        "instagram": "https://www.instagram.com/loladegrunt/",
+        "linkedin": "https://www.linkedin.com/in/lola-gina-de-grunt-2b8b03b0/?originalSubdomain=nl",
+        "twitter": " ",
+        "facebook": null
+      },
+      {
+        "candidateid": 17,
+        "name": "Gianni Kalkman",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 18,
+        "name": "Nando Jansen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 19,
+        "name": "Ria Winkelhorst",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/ria-winkelhorst-abb24524/",
+        "twitter": "https://twitter.com/winkelhorst_ria",
+        "facebook": null
+      },
+      {
+        "candidateid": 20,
+        "name": " Rutger Hanssens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 21,
+        "name": "Tom Huijs",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 22,
+        "name": "Arno Inen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 23,
+        "name": "Sander Fischer",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 24,
+        "name": "Joeri Jungschlager",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 25,
+        "name": "Quintus Backhuijs",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 26,
+        "name": "Rik Kleinsmit",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 27,
+        "name": "Roald Schoenmakers",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 28,
+        "name": "Jip Meijer",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 29,
+        "name": "oman van Ree",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 30,
+        "name": "Loes Engels",
+        "gender": "v",
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 31,
+        "name": "Arno Wellens",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      }
+    ]
   },
   {
     "listid": 21,
@@ -7464,7 +8976,150 @@
   {
     "listid": 24,
     "poll": 0,
-    "candidates": null
+    "listname": "NLBeter",
+    "program": "https://nlbeter.nl/#standpunten",
+    "candidates": [
+      {
+        "candidateid": 1,
+        "name": "Esther van Fenema",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/esther-van-fenema/",
+        "instagram": "https://www.instagram.com/esthervanfenema/",
+        "linkedin": "https://www.linkedin.com/in/esther-van-fenema-041119172/",
+        "twitter": "https://twitter.com/EsthervanFenema",
+        "facebook": null
+      },
+      {
+        "candidateid": 2,
+        "name": "Ton van Haperen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 3,
+        "name": "Janneke Wittekoek",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/janneke-wittekoek/",
+        "instagram": "https://www.instagram.com/janneke_wittekoek/",
+        "linkedin": "https://www.linkedin.com/in/janneke-wittekoek-b608a812/",
+        "twitter": "https://twitter.com/DokterJanneke",
+        "facebook": null
+      },
+      {
+        "candidateid": 4,
+        "name": "Ronald Mann",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 5,
+        "name": "Ingrid Hartog",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/ingrid-hartog/",
+        "instagram": " ",
+        "linkedin": "https://www.linkedin.com/in/ingrid-hartog-20725152/",
+        "twitter": "https://twitter.com/hartog_ingrid",
+        "facebook": " "
+      },
+      {
+        "candidateid": 6,
+        "name": "Gerrit Breteler",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 7,
+        "name": "Meindert Bolt",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 8,
+        "name": "Igor Monzón",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 9,
+        "name": "Anneke Tromp",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/anneke-tromp/",
+        "instagram": " ",
+        "linkedin": "https://www.linkedin.com/in/anneketromp/",
+        "twitter": " ",
+        "facebook": null
+      },
+      {
+        "candidateid": 10,
+        "name": "Steffie Jansen",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/steffie-jansen/",
+        "instagram": " ",
+        "linkedin": "https://www.linkedin.com/in/steffie-jansen/",
+        "twitter": " ",
+        "facebook": null
+      },
+      {
+        "candidateid": 11,
+        "name": "Fred Schonewille",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 12,
+        "name": "Maurice Leeser",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 13,
+        "name": "Klaas van Veen",
+        "gender": null,
+        "bio": null,
+        "instagram": null,
+        "linkedin": null,
+        "twitter": null,
+        "facebook": null
+      },
+      {
+        "candidateid": 14,
+        "name": "Elly Koning",
+        "gender": "v",
+        "bio": "https://nlbeter.nl/elly-koning/",
+        "instagram": " ",
+        "linkedin": "https://www.linkedin.com/in/ellykoning/",
+        "twitter": " ",
+        "facebook": null
+      }
+    ]
   },
   {
     "listid": 25,
