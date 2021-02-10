@@ -56,7 +56,7 @@ $: {
 		<p>En kijk op welke vrouwen je kan stemmen.</p>
 		{:else}
 		<span>Chose a party</span>
-		<p>And see which womn you can vote for.</p>
+		<p>And see which woman you can vote for.</p>
 		{/if}
 	</div>
 
