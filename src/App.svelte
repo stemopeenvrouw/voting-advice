@@ -118,6 +118,16 @@ gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit ge
 .listselect:nth-child(14) {-ms-grid-row: 4;-ms-grid-column: 2;}
 .listselect:nth-child(15) {-ms-grid-row: 4;-ms-grid-column: 3;}
 .listselect:nth-child(16) {-ms-grid-row: 4;-ms-grid-column: 4;}
+.listselect:nth-child(17) {-ms-grid-row: 5;-ms-grid-column: 1;}
+.listselect:nth-child(18) {-ms-grid-row: 5;-ms-grid-column: 2;}
+.listselect:nth-child(19) {-ms-grid-row: 5;-ms-grid-column: 3;}
+.listselect:nth-child(20) {-ms-grid-row: 5;-ms-grid-column: 4;}
+.listselect:nth-child(21) {-ms-grid-row: 6;-ms-grid-column: 1;}
+.listselect:nth-child(22) {-ms-grid-row: 6;-ms-grid-column: 2;}
+.listselect:nth-child(23) {-ms-grid-row: 6;-ms-grid-column: 3;}
+.listselect:nth-child(24) {-ms-grid-row: 6;-ms-grid-column: 4;}
+.listselect:nth-child(25) {-ms-grid-row: 7;-ms-grid-column: 1;}
+.listselect:nth-child(26) {-ms-grid-row: 7;-ms-grid-column: 2;}
 .listselect {
 	background: none;
 	border: none;
@@ -266,6 +276,16 @@ a.whatsapp {
 	.listselect:nth-child(14) {-ms-grid-row: 3;-ms-grid-column: 2;}
 	.listselect:nth-child(15) {-ms-grid-row: 3;-ms-grid-column: 3;}
 	.listselect:nth-child(16) {-ms-grid-row: 3;-ms-grid-column: 4;}
+	.listselect:nth-child(17) {-ms-grid-row: 3;-ms-grid-column: 5;}
+	.listselect:nth-child(18) {-ms-grid-row: 3;-ms-grid-column: 6;}
+	.listselect:nth-child(19) {-ms-grid-row: 4;-ms-grid-column: 1;}
+	.listselect:nth-child(20) {-ms-grid-row: 4;-ms-grid-column: 2;}
+	.listselect:nth-child(21) {-ms-grid-row: 4;-ms-grid-column: 3;}
+	.listselect:nth-child(22) {-ms-grid-row: 4;-ms-grid-column: 4;}
+	.listselect:nth-child(23) {-ms-grid-row: 4;-ms-grid-column: 5;}
+	.listselect:nth-child(24) {-ms-grid-row: 4;-ms-grid-column: 6;}
+	.listselect:nth-child(25) {-ms-grid-row: 5;-ms-grid-column: 1;}
+	.listselect:nth-child(26) {-ms-grid-row: 5;-ms-grid-column: 2;}
 	.share a {
 		margin-left: 1rem;
 	}
