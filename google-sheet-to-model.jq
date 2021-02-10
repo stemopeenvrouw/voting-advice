@@ -1,3 +1,14 @@
+# First get the sheet with the polls
+(
+	def round: . + 0.5 | floor;
+	.sheets[1].data[0].rowData |
+	map(
+		select(.values[0].userEnteredValue.numberValue? | tonumber?) | {
+			listid: .values[0].userEnteredValue.numberValue,
+			poll: ((.values[2:-1] |map(.userEnteredValue.numberValue) |add) / (.values[2:-1] |length) |round),
+		}
+	)
+) +
 # First get the first sheet [0] with the list identifiers in the first column [0],
 # names in the second [1], polling values [10], program urls [13].
 (
@@ -7,7 +18,6 @@
 		select(.values[0].userEnteredValue.numberValue? | tonumber?) | {
 			listid: .values[0].userEnteredValue.numberValue,
 			listname: .values[1].userEnteredValue.stringValue,
-			poll: (.values[10].userEnteredValue.numberValue? | round),
 			program: (.values[12].userEnteredValue.stringValue |
 				if (contains("http")?) then . else null end)
 		}
@@ -35,7 +45,7 @@
 # Group and combine the list information with the candidate data.
 group_by(.listid) |
 map(
-	.[0] + {
-		candidates: .[1].candidates
+  .[0] + .[1] + {
+		candidates: .[2].candidates
 	}
 )
