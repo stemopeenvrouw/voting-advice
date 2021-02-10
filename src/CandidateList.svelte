@@ -3,14 +3,15 @@
 	import Candidate from './Candidate.svelte';
 	import BarChart from './BarChart.svelte';
 
+	var real_poll;
 	export let english = false;
 	export let listid;
 	export let listname;
 	export let candidates;
 	$: candidates.filter(c => c.gender == 'v').map((c,i) => c.femaleIndex = i);
+	$: real_poll = poll; //(poll > 0) ? poll : 0;
 	export let program;
 	export let poll;
-	var real_poll = (poll > 0) ? poll : 2;
 </script>
 
 <div class="next" data-poll="{poll}">
@@ -27,7 +28,7 @@
 </div>
 <ol>
 {#each candidates as candidate, i (listid + '-' + candidate.id)}
-	<li class:save={i < real_poll} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate poll={real_poll} {...candidate} /></li>
+	<li class:save={i < real_poll} data-poll={real_poll} value={candidate.candidateid} in:fly="{{ y: 300, delay: i * 50 }}"><Candidate poll={real_poll} {...candidate} /></li>
 {/each}
 </ol>
 

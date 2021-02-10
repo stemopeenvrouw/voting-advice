@@ -22,7 +22,7 @@
 	<div class="number">{candidateid}</div>
 	<span class="name">{name}</span>
 	<span class="tip">
-	{#if candidateid <= poll}
+	{#if (poll == 0) || (candidateid <= poll)}
 	<span>tip</span>
 	{/if}
 	</span>
