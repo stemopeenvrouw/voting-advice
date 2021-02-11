@@ -43,21 +43,30 @@ $: {
 <div bind:offsetHeight={pageHeight} on:click={()=>sharemore=false}>
 
 	<div class="explanation explanation1">
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-			<defs>
-				<style>.cls-1{fill:#2f4144;}.cls-2{font-size:28px;fill:#fff;font-family:AcuminPro-Bold, Acumin Pro;font-weight:700;}</style>
-			</defs>
-			<title>Asset 8</title>
-			<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M36,18A18,18,0,1,1,18,0,18,18,0,0,1,36,18"></path><text class="cls-2" transform="translate(12.75 27.78)">1</text></g></g>
-		</svg>
+		<div class="svg">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+				<defs>
+					<style>.cls-1{fill:#2f4144;}.cls-2{font-size:28px;fill:#fff;font-family:AcuminPro-Bold, Acumin Pro;font-weight:700;}</style>
+				</defs>
+				<title>Asset 8</title>
+				<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M36,18A18,18,0,1,1,18,0,18,18,0,0,1,36,18"></path><text class="cls-2" transform="translate(12.75 27.78)">1</text></g></g>
+			</svg>
+		</div>
+			<div class="heading">
 		{#if !english}
-		<span>Kies een partij</span>
-		<p>En kijk op welke vrouwen je kan stemmen.</p>
+		Kies een partij
 		{:else}
-		<span>Chose a party</span>
-		<p>And see which woman you can vote for.</p>
+		Chose a party
 		{/if}
+		</div>
 	</div>
+	<p class="explanation-text">
+		{#if !english}
+		En kijk op welke vrouwen je kan stemmen.
+		{:else}
+		And see which woman you can vote for.
+		{/if}
+	</p>
 
 	<div class="electiongrid">
 	{#each lists as list, i (list.listid) }
@@ -66,21 +75,30 @@ $: {
 	</div>
 	{#if showlist }
 		<div class="explanation explanation2">
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
-				<defs><style>.cls-1{fill:#2f4144;}.cls-2{font-size:28px;fill:#fff;font-family:AcuminPro-Bold, Acumin Pro;font-weight:700;}</style></defs>
-				<title>Asset 9</title>
-				<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M36,18A18,18,0,1,1,18,0,18,18,0,0,1,36,18"></path><text class="cls-2" transform="translate(10.58 27.78)">2</text></g></g>
-			</svg>
+			<div class="svg">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36">
+					<defs><style>.cls-1{fill:#2f4144;}.cls-2{font-size:28px;fill:#fff;font-family:AcuminPro-Bold, Acumin Pro;font-weight:700;}</style></defs>
+					<title>Asset 9</title>
+					<g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M36,18A18,18,0,1,1,18,0,18,18,0,0,1,36,18"></path><text class="cls-2" transform="translate(10.58 27.78)">2</text></g></g>
+				</svg>
+			</div>
+			<div class="heading">
 			{#if !english}
-			<span>Kies een vrouw lager op de lijst dan de peilingen (rode stippellijn) aangeven</span>
-			<p>Staat er direct boven de stippellijn ook een vrouw? Dan kan ook zij jouw voorkeurstem
-gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij
-gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.</p>
+			Kies een vrouw lager op de lijst dan de peilingen (rode stippellijn) aangeven
 			{:else}
-			<span>Vote for a woman, lower on the list than the poll (red striped line) indicates</span>
-			<p>If a candidate directly ave the line is also a woman? Then she can us yo vote too. No blue stripes line? That could either mean that this party was not polled, or that it was polled on zero seats. Do not let this lead your decisionmaking; polls are never fully correct.</p>
+			Vote for a woman, lower on the list than the poll (red striped line) indicates
 			{/if}
+			</div>
 		</div>
+		<p class="explanation-text">
+		{#if !english}
+		Staat er direct boven de stippellijn ook een vrouw? Dan kan ook zij jouw voorkeurstem
+gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij
+gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.
+		{:else}
+		If a candidate directly ave the line is also a woman? Then she can us yo vote too. No blue stripes line? That could either mean that this party was not polled, or that it was polled on zero seats. Do not let this lead your decisionmaking; polls are never fully correct.
+		{/if}
+		</p>
 		<div>
 			<CandidateList {...showlist} {english} on:click={() => show(false)}/>
 		</div>
@@ -158,20 +176,27 @@ gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit ge
 	right: 0;
 	padding: 1.4rem;
 }
+.explanation {
+	display: inline-grid;
+	grid-template-columns: min-content auto;
+}
 .explanation svg {
 	width: 26px;
 	height: 26px;
 	fill: #fff;
 	display: inline-block;
 }
-.explanation span {
+.explanation div {
+	display: flex;
+	align-items: center;
+}
+.explanation .heading {
 	font-size: 22px;
 	font-weight: 600;
 	line-height: 20px;
-	display: inline-block;
 	padding-left: 15px;
 }
-.explanation p {
+p.explanation-text {
 	margin-left: 26px;
 	padding-left: 15px;
 	margin: 0 0 0.9rem 26px;
