@@ -54,17 +54,17 @@ $: {
 		</div>
 			<div class="heading">
 		{#if !english}
-		Kies een partij
+		Klik op een partij
 		{:else}
-		Chose a party
+		Choose your party
 		{/if}
 		</div>
 	</div>
 	<p class="explanation-text">
 		{#if !english}
-		En kijk op welke vrouwen je kan stemmen.
+		En maak kennis met alle vrouwelijke kandidaten.
 		{:else}
-		And see which woman you can vote for.
+		And find an overview of all female candidates.
 		{/if}
 	</p>
 
@@ -84,19 +84,17 @@ $: {
 			</div>
 			<div class="heading">
 			{#if !english}
-			Kies een vrouw lager op de lijst dan de peilingen (rode stippellijn) aangeven
+			Stem op een vrouw, lager op de lijst dan de peiling (stippellijn) aangeeft
 			{:else}
-			Vote for a woman, lower on the list than the poll (red striped line) indicates
+			Vote for a woman, lower on the list than the poll (dotted line) indicates
 			{/if}
 			</div>
 		</div>
 		<p class="explanation-text">
 		{#if !english}
-		Staat er direct boven de stippellijn ook een vrouw? Dan kan ook zij jouw voorkeurstem
-gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij
-gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.
+		Staat er direct boven de stippellijn ook een vrouw? Dan kan ook zij jouw voorkeurstem gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.
 		{:else}
-		If a candidate directly ave the line is also a woman? Then she can us yo vote too. No blue stripes line? That could either mean that this party was not polled, or that it was polled on zero seats. Do not let this lead your decisionmaking; polls are never fully correct.
+		Is there a female candidate directly above the dotted line? She would also benefit from your vote. No dotted line? That means there are no polls for this party, or they are expected to not gain any seats. Do not let this influence you; polls are never entirely correct.
 		{/if}
 		</p>
 		<div>
@@ -118,6 +116,7 @@ gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit ge
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(5.6rem, 1fr));
 	-ms-grid-columns: minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr) minmax(5.6rem, 1fr);
+	margin-bottom: 0.9rem;
 }
 .listselect:nth-child( 1) {-ms-grid-row: 1;-ms-grid-column: 1;}
 .listselect:nth-child( 2) {-ms-grid-row: 1;-ms-grid-column: 2;}
