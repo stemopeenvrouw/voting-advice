@@ -64,9 +64,11 @@ $: {
 	</div>
 	<p class="explanation-text">
 		{#if !english}
-		En maak kennis met alle vrouwelijke kandidaten.
+		<span class="small">En scroll naar beneden voor het overzicht van alle vrouwelijke kandidaten.</span>
+		<span class="wide">En maak kennis met alle vrouwelijke kandidaten.</span>
 		{:else}
-		And find an overview of all female candidates.
+		<span class="small">And scroll down to find an overview of all female candidates.</span>
+		<span class="wide">And find an overview of all female candidates.</span>
 		{/if}
 	</p>
 
@@ -201,6 +203,17 @@ p.explanation-text {
 	margin-left: 26px;
 	padding-left: 15px;
 	margin: 0 0 0.9rem 26px;
+}
+.explanation-text .wide {
+	display: none;
+}
+@media (min-width: 768px) {
+	.explanation-text .wide {
+		display: inline;
+	}
+	.explanation-text .small {
+		display: none;
+	}
 }
 .share > div {
 	transition: all ease-in-out 0.3s;
