@@ -7,7 +7,9 @@ export let english = false;
 let sharemore = false;
 let showlist = false;
 function show(list) {
-	showlist = list;
+	if (showlist != list) {
+		showlist = list;
+	}
 	if (list && history.pushState) {
 		history.pushState({}, english ? 'Step 2' : 'Stap 2', '');
 	}
