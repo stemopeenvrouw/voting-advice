@@ -26,9 +26,9 @@
 {#if expand}
 <div class="more" transition:slide>
 	{#if bio}
-		<a href="{bio}" target="_blank" rel="noopener noreferer" class="bio" role="button" aria-label="Biografie">Biografie</a>
+		<a href="{bio}" target="_blank" rel="noopener noreferer" class="bio" role="button" aria-label="Biografie">Bio</a>
 	{:else}
-		<span class="bio" aria-label="Bio">Biografie</span>
+		<span class="bio" aria-label="Bio">Bio</span>
 	{/if}
 	{#if facebook}
 		<a href="{facebook}" target="_blank" rel="noopener noreferer" class="facebook" role="button" aria-label="Facebook">Facebook</a>
@@ -95,6 +95,7 @@ span.name:before {
 	line-height: 22px;
 }
 .name {
+	font-size: 20px;
 	line-height: 28px;
 	display: flex;
   align-items: center;
@@ -193,7 +194,7 @@ span.name:before {
 }
 span.bio {
 	width: 4rem !important;
-	text-align: left;
+	text-align: right;
 	vertical-align: top;
 	line-height: 1rem;
 	color: #CCC;
@@ -202,7 +203,7 @@ span.bio {
 }
 a.bio {
 	width: 4rem !important;
-	text-align: left;
+	text-align: right;
 	vertical-align: top;
 	line-height: 1rem;
 	color: #5098AB;
