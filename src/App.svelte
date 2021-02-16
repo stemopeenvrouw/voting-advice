@@ -19,8 +19,8 @@ function popstate(event) {
 }
 const shareInfo = {
 	title: english ? 'I vote for a woman' : 'Ik stem op een vrouw',
-	text:  english ? 'I vote for a woman, lower on the candidate list for the European Parliament elections on May 23. Look here for all eligible parties, candidates and election programs!' : 'Ik stem op een vrouw, lager op de lijst, bij de Europese Parlementsverkiezingen op 23 mei. Bekijk hier alle verkiesbare partijen, kandidaten en verkiezingsprogramma\'s!',
-	url: english ? 'https://stemopeenvrouw.com/voting-advice/?lang=en' : 'https://stemopeenvrouw.com/stemtip/',
+	text:  english ? 'I am voting for a woman, lower on the list, in the elections on 17 March. Find all political parties & female candidates here:' : 'Ik stem op een vrouw, lager op de lijst, bij de Tweede Kamerverkiezingen op 17 maart. Bekijk alle partijen & vrouwelijke kandidaten hier: ',
+	url: english ? 'http://stemopeenvrouw.com/en/#votesmart' : 'https://stemopeenvrouw.com/#kiesjevrouw',
 };
 function share(event) {
 	if (navigator.share) {
