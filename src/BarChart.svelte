@@ -13,9 +13,9 @@
   </span>
   <span class="percentage" in:fade={{delay: 400}}>{Math.round(female*100/total)}%
   {#if !english}
-    vrouwen
+    jongeren
   {:else}
-    women
+    younger people
   {/if}
   </span>
 </div>
