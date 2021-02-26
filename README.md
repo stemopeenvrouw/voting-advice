@@ -47,10 +47,11 @@ Keys are inlined for the moment:
 
 ## Development
 ```bash
-docker-compose -f docker-compose-dev.yml up -d
-docker-compose -f docker-compose-dev.yml logs -f app
+docker-compose -f docer-compose.yml -f docker-compose-dev.yml up -d
+docker-compose -f docker-compose.yml -f docker-compose-dev.yml logs -f app
 ```
-And go to `http://localhost:5000/embedtest.html` (auto reloaded with new builds).
+<s>And go to `http://localhost:5000/embedtest.html` (auto reloaded with new builds).</s>
+Open the `index.html` in the `build` directory in your browser.Should auto-reload most of the time. If not, do `docker exec -it stemopeenvrow_import-build-cron_1 rollup -c`
 
 # License
 
