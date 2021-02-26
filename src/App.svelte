@@ -18,9 +18,9 @@ function popstate(event) {
 	show(false);
 }
 const shareInfo = {
-	title: english ? 'I vote for a woman' : 'Ik stem op een vrouw',
-	text:  english ? 'I am voting for a woman, lower on the list, in the elections on 17 March. Find all political parties & female candidates here:' : 'Ik stem op een vrouw, lager op de lijst, bij de Tweede Kamerverkiezingen op 17 maart. Bekijk alle partijen & vrouwelijke kandidaten hier: ',
-	url: english ? 'http://stemopeenvrouw.com/en/#votesmart' : 'https://stemopeenvrouw.com/#kiesjevrouw',
+	title: english ? 'I vote for a younger person' : 'Ik stem op een jongere',
+	text:  english ? 'I am voting for a younger person, lower on the list, in the elections on 17 March. Find all political parties & younger candidates here:' : 'Ik stem op een jongere, lager op de lijst, bij de Tweede Kamerverkiezingen op 17 maart. Bekijk alle partijen & jongere kandidaten hier: ',
+	url: english ? 'https://www.stemopeenjongere.nl/' : 'https://www.stemopeenjongere.nl/',
 };
 function share(event) {
 	if (navigator.share) {
@@ -64,11 +64,11 @@ $: {
 	</div>
 	<p class="explanation-text">
 		{#if !english}
-		<span class="small">En scroll naar beneden voor het overzicht van alle vrouwelijke kandidaten.</span>
-		<span class="wide">En maak kennis met alle vrouwelijke kandidaten.</span>
+		<span class="small">En scroll naar beneden voor het overzicht van alle jongere kandidaten.</span>
+		<span class="wide">En maak kennis met alle jongere kandidaten.</span>
 		{:else}
-		<span class="small">And scroll down to find an overview of all female candidates.</span>
-		<span class="wide">And find an overview of all female candidates.</span>
+		<span class="small">And scroll down to find an overview of all younger candidates.</span>
+		<span class="wide">And find an overview of all younger candidates.</span>
 		{/if}
 	</p>
 
@@ -88,17 +88,17 @@ $: {
 			</div>
 			<div class="heading">
 			{#if !english}
-			Stem op een vrouw, lager op de lijst dan de peiling (stippellijn) aangeeft
+			Stem op een jongere, lager op de lijst dan de peiling (stippellijn) aangeeft
 			{:else}
-			Vote for a woman, lower on the list than the poll (dotted line) indicates
+			Vote for a younger person, lower on the list than the poll (dotted line) indicates
 			{/if}
 			</div>
 		</div>
 		<p class="explanation-text">
 		{#if !english}
-		Staat er direct boven de stippellijn ook een vrouw? Dan kan ook zij jouw voorkeurstem gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.
+		Staat er direct boven de stippellijn ook een jongere? Dan kan ook hij/zij jouw voorkeurstem gebruiken. Geen stippellijn? Dan zijn er van deze partij geen peilingen of staat de partij gepeild op 0 zetels. Laat je hierdoor niet beïnvloeden; peilingen zijn nooit geheel correct.
 		{:else}
-		Is there a female candidate directly above the dotted line? She would also benefit from your vote. No dotted line? That means there are no polls for this party, or they are expected to not gain any seats. Do not let this influence you; polls are never entirely correct.
+		Is there a younger candidate directly above the dotted line? He/She would also benefit from your vote. No dotted line? That means there are no polls for this party, or they are expected to not gain any seats. Do not let this influence you; polls are never entirely correct.
 		{/if}
 		</p>
 		<div>
