@@ -26,7 +26,7 @@ export default {
 	external: ['core-js'],
 	plugins: [
 		replace({
-			'config.targetOrigin': JSON.stringify(production ? 'https://stemopeenjongere.nl' : 'http://localhost:5000'),
+			'config.targetOrigin': JSON.stringify(production ? 'https://www.stemopeenjongere.nl' : 'http://localhost:5000'),
 		}),
 		svelte({
 			dev: !production,
